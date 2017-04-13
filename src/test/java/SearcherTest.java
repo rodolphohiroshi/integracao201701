@@ -66,6 +66,19 @@ public class SearcherTest {
 		assertEquals( results.size(), 10943 );
 	}
 	
+	@Test
+	public void multipleSearchsTest() throws IOException
+	{
+		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
+		
+		for( int i = 0; i < 100; i++ )
+		{
+			results = searcher.search( keyword );		
+			assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
+		}
+		
+	}
+	
 	/*
 	@Test
 	public void emptyStringSearch() throws IOException
