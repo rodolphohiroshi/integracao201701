@@ -13,12 +13,13 @@ public class CSVReader
 	public static void main(String[] args ) throws IOException, URISyntaxException
 	{
 	
-		String keyWord = "amarela";
+		//String keyWord = "amarela";
 		
 		BufferedReader br = new BufferedReader(new FileReader("src//main//resources//CID-10.csv"));
 		ArrayList<String> results = new ArrayList<String>();
 		Searcher searcher = new Searcher();
-		results = searcher.searchKeyword(br, keyWord);
+		//results = searcher.searchKeyword(br, keyWord);
+		results = searcher.search(br, keyWord);
 		
 		Iterator<String> iterator = results.iterator();
 		

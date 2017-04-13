@@ -4,23 +4,43 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.List;
 
 public class Searcher 
 {
-	public ArrayList<String> search(BufferedReader br, String keyword )
+	public ArrayList<String> search(BufferedReader br, String[] keywords ) throws IOException 
 	{
-		ArrayList<String> keywordsList = getKeywordsList( keyword );
+		List<String> keywordsList = new ArrayList<String>(Arrays.asList(keywords));
 		
-		Iterator<String> iterator = keywordsList.iterator();
+		String line = "";
+		ArrayList<String> results = new ArrayList<String>();
 		
-		while(iterator.hasNext() )
-		{
+		while ((line = br.readLine()) != null) {
+			boolean lineMatch = false;
+			Iterator<String> iterador = keywordsList.iterator();
 			
+			while(iterador.hasNext())
+			{
+				String palavra = iterador.next();
+				if( line.contains( palavra ) )
+				{
+					lineMatch = true;
+				}
+				else
+				{
+					lineMatch = false;
+				}
+			}
+			
+			if( lineMatch == true )
+			{
+				results.add(line);
+			}
 		}
-		
-		
-		return null;
+		return results;
 	}
+	
+	
 	
 	public ArrayList<String> getKeywordsList( String keyword )
 	{

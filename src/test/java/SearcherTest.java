@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import org.junit.After;
 import org.junit.Before;
@@ -55,13 +56,39 @@ public class SearcherTest {
 	}
 	
 	@Test
-	public void getKeywordsListNumberOfResultsIsRight() throws Exception
+	public void NumberOfResultsFromSearchMethodTest() throws IOException
 	{
-		ArrayList<String> results = searcher.getKeywordsList( "Eu sou um cachorro");
+		String[] keyword = {"Colera", "devida", "Vibrio", "cholerae"};
 		
-		System.out.println( results.size());
+		results = searcher.search(br, keyword );
 		
-		assertTrue( 4 == 4 ); 
-	}
+		assertEquals( results.size(), 2 );
 
+	}
+	
+	@Test
+	public void searchMethodTest1() throws IOException
+	{
+		String[] keyword = {"Colera", "devida", "Vibrio", "cholerae"};	
+		results = searcher.search(br, keyword );		
+		assertTrue( results.contains( "A000,Cólera devida a Vibrio cholerae 01") && results.contains( "A001,Cólera devida a Vibrio cholerae 01"));
+	}
+	
+	@Test
+	public void searchMethodTest2() throws IOException
+	{
+		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
+		results = searcher.search(br, keyword );		
+		assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
+	}
+	
+	/*
+	@Test
+	public void emptyStringSearch() throws IOException
+	{
+		String[] keyword = {"", };	
+		results = searcher.search(br, keyword );	
+		System.out.println( results.size());
+		assertTrue( results.isEmpty());
+	} */
 }
