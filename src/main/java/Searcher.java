@@ -33,7 +33,13 @@ public class Searcher
 		{
 			listOfCID10Diseases.add( line );
 			
-		}	
+		}
+	}
+	
+	public void unload() throws Throwable
+	{
+		br.close();
+		finalize();
 	}
 	
 	public ArrayList<String> search(String[] keywords ) throws IOException 

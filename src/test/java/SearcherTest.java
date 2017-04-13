@@ -76,7 +76,6 @@ public class SearcherTest {
 			results = searcher.search( keyword );		
 			assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
 		}
-		
 	}
 	
 	/*
