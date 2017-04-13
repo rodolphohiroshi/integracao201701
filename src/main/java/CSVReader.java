@@ -19,8 +19,9 @@ public class CSVReader
 		BufferedReader br = new BufferedReader(new FileReader("src//main//resources//CID-10.csv"));
 		ArrayList<String> results = new ArrayList<String>();
 		Searcher searcher = new Searcher();
+		searcher.load();
 		//results = searcher.searchKeyword(br, keyWord);
-		results = searcher.search(br, keyWord);
+		results = searcher.search( keyWord);
 		
 		Iterator<String> iterator = results.iterator();
 		

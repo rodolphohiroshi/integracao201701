@@ -10,19 +10,21 @@ import java.util.Iterator;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 
 public class SearcherTest {
-
 	Searcher searcher = new Searcher();
 	BufferedReader br;
 	ArrayList<String> results;
 
-	public SearcherTest() throws FileNotFoundException, URISyntaxException
+	public SearcherTest() throws URISyntaxException, IOException
 	{
 		br = new BufferedReader(new FileReader("src//main//resources//CID-10.csv"));
+		searcher.load();
 	}
+	
 	
 	@After
 	public void setUp()
@@ -31,37 +33,11 @@ public class SearcherTest {
 	}
 	
 	@Test
-	public void testResultNotNull() throws IOException 
-	{		
-		results = searcher.searchKeyword(br, "Macumba");
-		assertNotNull( results );
-	}
-	
-	@Test
-	public void testNumberOfResultsIsRight() throws IOException
-	{
-		results = searcher.searchKeyword(br, "dengue");
-		
-		assertEquals(results.size(), 4);
-	}
-	
-	@Test
-	public void StringResultIsRight() throws IOException
-	{
-		results = searcher.searchKeyword(br, "dengue");
-		
-		String result = results.get(0);
-		
-		assertTrue( result.contains( "dengue"));
-	}
-	
-	@Test
 	public void NumberOfResultsFromSearchMethodTest() throws IOException
 	{
 		String[] keyword = {"Colera", "devida", "Vibrio", "cholerae"};
 		
-		results = searcher.search(br, keyword );
-		
+		results = searcher.search(keyword );		
 		assertEquals( results.size(), 2 );
 
 	}
@@ -70,7 +46,7 @@ public class SearcherTest {
 	public void searchMethodTest1() throws IOException
 	{
 		String[] keyword = {"Colera", "devida", "Vibrio", "cholerae"};	
-		results = searcher.search(br, keyword );		
+		results = searcher.search( keyword );		
 		assertTrue( results.contains( "A000,Cólera devida a Vibrio cholerae 01") && results.contains( "A001,Cólera devida a Vibrio cholerae 01"));
 	}
 	
@@ -78,16 +54,14 @@ public class SearcherTest {
 	public void searchMethodTest2() throws IOException
 	{
 		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
-		results = searcher.search(br, keyword );		
+		results = searcher.search( keyword );		
 		assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
 	}
 	
 	@Test
 	public void allLinesAreLoaded() throws IOException
 	{
-		searcher.load();
 		results = searcher.getListOfDiseases();
-		
 		
 		assertEquals( results.size(), 10943 );
 	}
@@ -101,4 +75,5 @@ public class SearcherTest {
 		System.out.println( results.size());
 		assertTrue( results.isEmpty());
 	} */
+	
 }

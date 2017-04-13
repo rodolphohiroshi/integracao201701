@@ -32,20 +32,44 @@ public class Searcher
 		while(( line = br.readLine()) != null )
 		{
 			listOfCID10Diseases.add( line );
-		}
-		
-		System.out.println( listOfCID10Diseases.size());
-		
-		
+			
+		}	
 	}
 	
-	public ArrayList<String> search(BufferedReader br, String[] keywords ) throws IOException 
+	public ArrayList<String> search(String[] keywords ) throws IOException 
 	{
 		List<String> keywordsList = new ArrayList<String>(Arrays.asList(keywords));
 		
 		String line = "";
 		ArrayList<String> results = new ArrayList<String>();
+		Iterator<String> iteradorLista = listOfCID10Diseases.iterator();
 		
+		while( iteradorLista.hasNext() )
+		{
+			line = iteradorLista.next();
+			
+			boolean lineMatch = false;
+			Iterator<String> iterador = keywordsList.iterator();
+			
+			while(iterador.hasNext())
+			{
+				String palavra = iterador.next();
+				if( line.contains( palavra ) )
+				{
+					lineMatch = true;
+				}
+				else
+				{
+					lineMatch = false;
+				}
+			}
+			
+			if( lineMatch == true )
+			{
+				results.add(line);
+			}
+		}
+			
 		while ((line = br.readLine()) != null) {
 			boolean lineMatch = false;
 			Iterator<String> iterador = keywordsList.iterator();
@@ -70,9 +94,7 @@ public class Searcher
 		}
 		return results;
 	}
-	
-	
-	
+		
 	public ArrayList<String> getKeywordsList( String keyword )
 	{
 		String[] keywordsList = keyword.split(" ");
