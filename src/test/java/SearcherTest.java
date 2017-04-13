@@ -82,6 +82,16 @@ public class SearcherTest {
 		assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
 	}
 	
+	@Test
+	public void allLinesAreLoaded() throws IOException
+	{
+		searcher.load();
+		results = searcher.getListOfDiseases();
+		
+		
+		assertEquals( results.size(), 10943 );
+	}
+	
 	/*
 	@Test
 	public void emptyStringSearch() throws IOException

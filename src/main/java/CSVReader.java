@@ -14,6 +14,7 @@ public class CSVReader
 	{
 	
 		//String keyWord = "amarela";
+		String[] keyWord = {"Colera", "devida", "Vibrio", "cholerae"};
 		
 		BufferedReader br = new BufferedReader(new FileReader("src//main//resources//CID-10.csv"));
 		ArrayList<String> results = new ArrayList<String>();
