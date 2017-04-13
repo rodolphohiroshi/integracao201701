@@ -95,12 +95,6 @@ public class Searcher
 		return results;
 	}
 		
-	public ArrayList<String> getKeywordsList( String keyword )
-	{
-		String[] keywordsList = keyword.split(" ");
-				
-		return new ArrayList<String>( Arrays.asList(keywordsList));
-	}
 	
 	public ArrayList<String> searchKeyword(BufferedReader br, String keyword ) throws IOException 
 	{
