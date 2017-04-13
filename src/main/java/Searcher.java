@@ -94,21 +94,4 @@ public class Searcher
 		}
 		return results;
 	}
-		
-	
-	public ArrayList<String> searchKeyword(BufferedReader br, String keyword ) throws IOException 
-	{
-	
-		String line = "";
-		ArrayList<String> results = new ArrayList<String>();
-		
-		while ((line = br.readLine()) != null) {
-			
-			if( line.contains( keyword))
-			{
-				results.add(line);
-			}
-		}
-		return results;
-	}
 }
