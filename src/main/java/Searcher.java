@@ -3,9 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
-import java.util.List;
 
 public class Searcher 
 {
@@ -73,29 +71,6 @@ public class Searcher
 			}
 		}
 			
-		/*
-		while ((line = br.readLine()) != null) {
-			boolean lineMatch = false;
-			Iterator<String> iterador = keywordsList.iterator();
-			
-			while(iterador.hasNext())
-			{
-				String palavra = iterador.next();
-				if( line.contains( palavra ) )
-				{
-					lineMatch = true;
-				}
-				else
-				{
-					lineMatch = false;
-				}
-			}
-			
-			if( lineMatch == true )
-			{
-				results.add(line);
-			}
-		}*/
 		return results;
 	} 
 }
