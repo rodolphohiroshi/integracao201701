@@ -44,8 +44,6 @@ public class Searcher
 	
 	public ArrayList<String> search(String[] keywords ) throws IOException 
 	{
-		List<String> keywordsList = new ArrayList<String>(Arrays.asList(keywords));
-		
 		String line = "";
 		ArrayList<String> results = new ArrayList<String>();
 		Iterator<String> iteradorLista = listOfCID10Diseases.iterator();
@@ -55,20 +53,19 @@ public class Searcher
 			line = iteradorLista.next();
 			
 			boolean lineMatch = false;
-			Iterator<String> iterador = keywordsList.iterator();
 			
-			while(iterador.hasNext())
+			for(String word : keywords )
 			{
-				String palavra = iterador.next();
-				if( line.contains( palavra ) )
+				if( line.contains(word))
 				{
 					lineMatch = true;
 				}
 				else
 				{
 					lineMatch = false;
+					break;
 				}
-			}
+			} 
 			
 			if( lineMatch == true )
 			{
@@ -76,6 +73,7 @@ public class Searcher
 			}
 		}
 			
+		/*
 		while ((line = br.readLine()) != null) {
 			boolean lineMatch = false;
 			Iterator<String> iterador = keywordsList.iterator();
@@ -97,7 +95,7 @@ public class Searcher
 			{
 				results.add(line);
 			}
-		}
+		}*/
 		return results;
-	}
+	} 
 }

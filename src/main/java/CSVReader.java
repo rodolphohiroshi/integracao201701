@@ -30,6 +30,5 @@ public class CSVReader
 		{
 			System.out.println( iterator.next());
 		}
-	
 	}
 }
