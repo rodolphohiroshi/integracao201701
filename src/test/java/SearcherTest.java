@@ -63,7 +63,7 @@ public class SearcherTest {
 	{
 		results = searcher.getListOfDiseases();
 		
-		assertEquals( results.size(), 10943 );
+		assertEquals( results.size(), 10774 );
 	}
 	
 	@Test
@@ -71,7 +71,7 @@ public class SearcherTest {
 	{
 		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
 		
-		for( int i = 0; i < 1000; i++ )
+		for( int i = 0; i < 10000; i++ )
 		{
 			results = searcher.search( keyword );		
 			assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
