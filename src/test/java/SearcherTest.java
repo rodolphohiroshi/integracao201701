@@ -80,6 +80,56 @@ public class SearcherTest {
 		assertEquals( 4, results.size() );
 	}
 	
+	@Test
+	public void searchForDescription() throws IOException
+	{
+		String[] keyword = {"dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 2, results.size() );
+	}
+	
+	@Test
+	public void searchForCodeAndDescription() throws IOException
+	{
+		String[] keyword = {"90", "dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 1, results.size() );
+	}
+	
+	@Test
+	public void returnsNullWhenNoResultsAreFound() throws IOException
+	{
+		String[] keyword = {"9099", "dengue", "inexistente"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( null, results );
+	}
+	
+	@Test
+	public void doesNotFindWithCommaBetweenCodeAndDescription() throws IOException
+	{
+		String[] keyword = {"90,Dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( null, results );
+	}
+	
+	@Test
+	public void searchIsCaseInsensitive() throws IOException
+	{
+		String[] keyword = {"Dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 2, results.size() );
+	}
+	
 	
 	@After
 	public void teardown()
