@@ -1,22 +1,15 @@
 import static org.junit.Assert.*;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 
 public class SearcherTest {
 	Searcher searcher = new Searcher();
-	BufferedReader br;
 	ArrayList<String> results;
 
 	public SearcherTest() throws URISyntaxException, IOException
