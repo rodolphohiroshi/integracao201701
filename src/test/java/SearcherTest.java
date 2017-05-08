@@ -35,7 +35,7 @@ public class SearcherTest {
 	@Test
 	public void NumberOfResultsFromSearchMethodTest() throws IOException
 	{
-		String[] keyword = {"Colera", "devida", "Vibrio", "cholerae"};
+		String[] keyword = {"Cólera", "devida", "Vibrio", "cholerae"};
 		
 		results = searcher.search(keyword );		
 		assertEquals( results.size(), 2 );
@@ -45,7 +45,7 @@ public class SearcherTest {
 	@Test
 	public void searchMethodTest1() throws IOException
 	{
-		String[] keyword = {"Colera", "devida", "Vibrio", "cholerae"};	
+		String[] keyword = {"Cólera", "devida", "Vibrio", "cholerae"};	
 		results = searcher.search( keyword );		
 		assertTrue( results.contains( "A000,Cólera devida a Vibrio cholerae 01") && results.contains( "A001,Cólera devida a Vibrio cholerae 01"));
 	}
@@ -71,7 +71,7 @@ public class SearcherTest {
 	{
 		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
 		
-		for( int i = 0; i < 100; i++ )
+		for( int i = 0; i < 1000; i++ )
 		{
 			results = searcher.search( keyword );		
 			assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));

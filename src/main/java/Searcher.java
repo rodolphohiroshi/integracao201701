@@ -3,9 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
-import java.util.List;
 
 public class Searcher 
 {
@@ -44,8 +42,6 @@ public class Searcher
 	
 	public ArrayList<String> search(String[] keywords ) throws IOException 
 	{
-		List<String> keywordsList = new ArrayList<String>(Arrays.asList(keywords));
-		
 		String line = "";
 		ArrayList<String> results = new ArrayList<String>();
 		Iterator<String> iteradorLista = listOfCID10Diseases.iterator();
@@ -55,20 +51,19 @@ public class Searcher
 			line = iteradorLista.next();
 			
 			boolean lineMatch = false;
-			Iterator<String> iterador = keywordsList.iterator();
 			
-			while(iterador.hasNext())
+			for(String word : keywords )
 			{
-				String palavra = iterador.next();
-				if( line.contains( palavra ) )
+				if( line.contains(word))
 				{
 					lineMatch = true;
 				}
 				else
 				{
 					lineMatch = false;
+					break;
 				}
-			}
+			} 
 			
 			if( lineMatch == true )
 			{
@@ -76,28 +71,6 @@ public class Searcher
 			}
 		}
 			
-		while ((line = br.readLine()) != null) {
-			boolean lineMatch = false;
-			Iterator<String> iterador = keywordsList.iterator();
-			
-			while(iterador.hasNext())
-			{
-				String palavra = iterador.next();
-				if( line.contains( palavra ) )
-				{
-					lineMatch = true;
-				}
-				else
-				{
-					lineMatch = false;
-				}
-			}
-			
-			if( lineMatch == true )
-			{
-				results.add(line);
-			}
-		}
 		return results;
-	}
+	} 
 }
