@@ -130,6 +130,17 @@ public class SearcherTest {
 		assertEquals( 2, results.size() );
 	}
 	
+	@Test
+	public void searchReturnsCorrectCaseAndAccent() throws IOException
+	{
+		String[] keyword = {"dengue", "classico"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 1, results.size() );
+		assertEquals( "A90 Dengue [dengue cl�ssico]", results.get(0) );
+	}
+	
 	
 	@After
 	public void teardown()
