@@ -21,15 +21,7 @@ public class SearcherTest {
 
 	public SearcherTest() throws URISyntaxException, IOException
 	{
-		br = new BufferedReader(new FileReader("src//main//resources//CID-10.csv"));
 		searcher.load();
-	}
-	
-	
-	@After
-	public void setUp()
-	{
-		results.clear();
 	}
 	
 	@Test
@@ -78,14 +70,21 @@ public class SearcherTest {
 		}
 	}
 	
-	/*
 	@Test
-	public void emptyStringSearch() throws IOException
+	public void doesNotIgnorePreposition() throws IOException
 	{
-		String[] keyword = {"", };	
-		results = searcher.search(br, keyword );	
-		System.out.println( results.size());
-		assertTrue( results.isEmpty());
-	} */
+		String[] keyword = {"devida", "a", "Shigella"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 4, results.size() );
+	}
+	
+	
+	@After
+	public void teardown()
+	{
+		results.clear();
+	}
 	
 }
