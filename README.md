@@ -1,5 +1,7 @@
 # CID 10
 
+Bem Vindo!!  Abaixo, algumas informações que podem ser relevantes para você!  
+
 ## Descrição do Projeto
   
   Projeto conduzido por alunos da Disciplina "Intregação de Aplicações", com supervisão do professor, para busca de doenças e códigos das doenças, na tabela CID 10.
@@ -18,8 +20,13 @@
  - [Osmar Cavalcante](https://github.com/osmarpixuri)
  - [Rodolpho Hiroshi](https://github.com/rodolphohiroshi)
 
+## Obtendo o Projeto
+
+`git clone https://github.com/osmarpixuri/integracao201701`  
+
 ## Instruções para importação do projeto (Eclipse)
 
+ - Após clonar o projeto para o seu PC
  - Clique no menu "Window >> Show View >> Other"
  - Dentro da nova tela expanda a pasta "Git" e selecione a opção "Git Repositories" depois aperte OK
  - No canto inferior esquerdo (dentro de "Git Repositories") selecione "Add an existing local Git repository
@@ -28,4 +35,3 @@
  - Novamente, no canto inferior esquerdo, clique com o botão direito em "Working Tree >> Import Projects..."
  - Selecione a opção "Import as general project" e clique em "Next >" depois em "Finish" 
  - Em "Package Explorer", clique com o botão direito em integraca0201701 vá em "Configure >> Convert to Maven Project"
-
