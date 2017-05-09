@@ -20,6 +20,10 @@ Bem Vindo!!  Abaixo, algumas informações que podem ser relevantes para você!
  - [Osmar Cavalcante](https://github.com/osmarpixuri)
  - [Rodolpho Hiroshi](https://github.com/rodolphohiroshi)
 
+## Obtendo o Projeto
+
+`git clone https://github.com/osmarpixuri/integracao201701`  
+
 ## Instruções para importação do projeto (Eclipse)
 
  - Após clonar o projeto para o seu PC
