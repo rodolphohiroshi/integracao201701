@@ -16,10 +16,12 @@ public class Searcher
 		return listOfCID10Diseases;
 	}
 	
+	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings e remove as virgulas.
 	public void load() throws IOException
 	{
 		try 
 		{
+			//Path.separator utiliza o separador de caminhos de diretório apropriado para cada sistema.
 			String path = "src" + File.separator + "main" + File.separator + "resources" + File.separator + "CID-10.csv";
 			br = new BufferedReader(new FileReader(path));
 		} catch (FileNotFoundException e) 
@@ -31,9 +33,9 @@ public class Searcher
 		
 		while(( line = br.readLine()) != null )
 		{
+			//Elimina a virgula que separa o código e a descrição da doença no arquivo csv
 			line = line.replace(',', ' ');
-			listOfCID10Diseases.add( line );
-			
+			listOfCID10Diseases.add( line );	
 		}
 		
 		br.close();
@@ -41,7 +43,6 @@ public class Searcher
 	
 	public void unload() throws Throwable
 	{
-
 		finalize();
 	}
 	
@@ -75,7 +76,10 @@ public class Searcher
 				results.add(line);
 			}
 		}
-				
-		return results;
+		
+		if( results.isEmpty() )
+			return null;
+		else
+			return results;
 	} 
 }
