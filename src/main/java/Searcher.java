@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,11 +16,14 @@ public class Searcher
 		return listOfCID10Diseases;
 	}
 	
+	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings e remove as virgulas.
 	public void load() throws IOException
 	{
 		try 
 		{
-			br = new BufferedReader(new FileReader("src//main//resources//CID-10.csv"));
+			//Path.separator utiliza o separador de caminhos de diretório apropriado para cada sistema.
+			String path = "src" + File.separator + "main" + File.separator + "resources" + File.separator + "CID-10.csv";
+			br = new BufferedReader(new FileReader(path));
 		} catch (FileNotFoundException e) 
 		{
 			e.printStackTrace();
@@ -29,14 +33,16 @@ public class Searcher
 		
 		while(( line = br.readLine()) != null )
 		{
-			listOfCID10Diseases.add( line );
-			
+			//Elimina a virgula que separa o código e a descrição da doença no arquivo csv
+			line = line.replace(',', ' ');
+			listOfCID10Diseases.add( line );	
 		}
+		
+		br.close();
 	}
 	
 	public void unload() throws Throwable
 	{
-		br.close();
 		finalize();
 	}
 	
@@ -70,7 +76,10 @@ public class Searcher
 				results.add(line);
 			}
 		}
-			
-		return results;
+		
+		if( results.isEmpty() )
+			return null;
+		else
+			return results;
 	} 
 }
