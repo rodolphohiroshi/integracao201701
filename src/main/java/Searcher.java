@@ -70,7 +70,7 @@ public class Searcher
 				results.add(line);
 			}
 		}
-			
+				
 		return results;
 	} 
 }
