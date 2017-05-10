@@ -1,22 +1,15 @@
 import static org.junit.Assert.*;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 
 public class SearcherTest {
 	Searcher searcher = new Searcher();
-	BufferedReader br;
 	ArrayList<String> results;
 
 	public SearcherTest() throws URISyntaxException, IOException
@@ -78,6 +71,67 @@ public class SearcherTest {
 		results = searcher.search( keyword );
 		
 		assertEquals( 4, results.size() );
+	}
+	
+	@Test
+	public void searchForDescription() throws IOException
+	{
+		String[] keyword = {"dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 2, results.size() );
+	}
+	
+	@Test
+	public void searchForCodeAndDescription() throws IOException
+	{
+		String[] keyword = {"90", "dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 1, results.size() );
+	}
+	
+	@Test
+	public void returnsNullWhenNoResultsAreFound() throws IOException
+	{
+		String[] keyword = {"9099", "dengue", "inexistente"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( null, results );
+	}
+	
+	@Test
+	public void doesNotFindWithCommaBetweenCodeAndDescription() throws IOException
+	{
+		String[] keyword = {"90,Dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( null, results );
+	}
+	
+	@Test
+	public void searchIsCaseInsensitive() throws IOException
+	{
+		String[] keyword = {"Dengue"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 2, results.size() );
+	}
+	
+	@Test
+	public void searchReturnsCorrectCaseAndAccent() throws IOException
+	{
+		String[] keyword = {"dengue", "classico"};	
+		
+		results = searcher.search( keyword );
+		
+		assertEquals( 1, results.size() );
+		assertEquals( "A90 Dengue [dengue clássico]", results.get(0) );
 	}
 	
 	
