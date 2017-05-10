@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -19,7 +20,8 @@ public class Searcher
 	{
 		try 
 		{
-			br = new BufferedReader(new FileReader("src//main//resources//CID-10.csv"));
+			String path = "src" + File.separator + "main" + File.separator + "resources" + File.separator + "CID-10.csv";
+			br = new BufferedReader(new FileReader(path));
 		} catch (FileNotFoundException e) 
 		{
 			e.printStackTrace();
@@ -29,14 +31,17 @@ public class Searcher
 		
 		while(( line = br.readLine()) != null )
 		{
+			line = line.replace(',', ' ');
 			listOfCID10Diseases.add( line );
 			
 		}
+		
+		br.close();
 	}
 	
 	public void unload() throws Throwable
 	{
-		br.close();
+
 		finalize();
 	}
 	
