@@ -130,15 +130,9 @@ public class SearcherTest {
 		
 		results = searcher.search( keyword );
 		
+		assertNotNull(results);
 		assertEquals( 1, results.size() );
 		assertEquals( "A90 Dengue [dengue clássico]", results.get(0) );
-	}
-	
-	
-	@After
-	public void teardown()
-	{
-		results.clear();
 	}
 	
 }
