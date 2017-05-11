@@ -59,7 +59,7 @@ public class SearcherTest {
 		for( int i = 0; i < 10000; i++ )
 		{
 			results = searcher.search( keyword );		
-			assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
+			assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
 		}
 	}
 	
