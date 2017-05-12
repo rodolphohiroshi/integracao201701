@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Searcher 
+public class CID10 
 {
 	private BufferedReader br;
 	private ArrayList<String> listOfCID10Diseases = new ArrayList<String>();

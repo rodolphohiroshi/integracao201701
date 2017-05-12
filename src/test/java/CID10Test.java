@@ -8,11 +8,11 @@ import org.junit.After;
 import org.junit.Test;
 
 
-public class SearcherTest {
-	Searcher searcher = new Searcher();
+public class CID10Test {
+	CID10 searcher = new CID10();
 	ArrayList<String> results;
 
-	public SearcherTest() throws URISyntaxException, IOException
+	public CID10Test() throws URISyntaxException, IOException
 	{
 		searcher.load();
 	}
