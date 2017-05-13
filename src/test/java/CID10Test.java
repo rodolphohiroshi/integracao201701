@@ -52,18 +52,6 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void multipleSearchsTest() throws IOException
-	{
-		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
-		
-		for( int i = 0; i < 10000; i++ )
-		{
-			results = searcher.search( keyword );		
-			assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
-		}
-	}
-	
-	@Test
 	public void doesNotIgnorePreposition() throws IOException
 	{
 		String[] keyword = {"devida", "a", "Shigella"};	
@@ -133,6 +121,18 @@ public class CID10Test {
 		assertNotNull(results);
 		assertEquals( 1, results.size() );
 		assertEquals( "A90 Dengue [dengue clássico]", results.get(0) );
+	}
+	
+	@Test
+	public void multipleSearchsTest() throws IOException
+	{
+		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
+		
+		for( int i = 0; i < 1000; i++ )
+		{
+			results = searcher.search( keyword );		
+			assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
+		}
 	}
 	
 }
