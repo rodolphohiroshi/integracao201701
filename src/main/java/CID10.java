@@ -3,13 +3,15 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Searcher 
+public class CID10 
 {
 	private BufferedReader br;
 	private ArrayList<String> listOfCID10Diseases = new ArrayList<String>();
+	private ArrayList<String> normalizedListOfCID10Diseases = new ArrayList<String>();
 	
 	public ArrayList<String> getListOfDiseases()
 	{
@@ -35,6 +37,7 @@ public class Searcher
 		{
 			//Elimina a virgula que separa o código e a descrição da doença no arquivo csv
 			line = line.replace(',', ' ');
+			normalizedListOfCID10Diseases.add(removeAccent(line).toLowerCase());
 			listOfCID10Diseases.add( line );	
 		}
 		
@@ -50,7 +53,17 @@ public class Searcher
 	{
 		String line = "";
 		ArrayList<String> results = new ArrayList<String>();
-		Iterator<String> iteradorLista = listOfCID10Diseases.iterator();
+		Iterator<String> iteradorLista = normalizedListOfCID10Diseases.iterator();
+		int index = 0;
+		
+		String[] normalizedKeywords = new String[keywords.length];
+		int i = 0;
+		
+		for(String word : keywords )
+		{
+			normalizedKeywords[i] = removeAccent(word).toLowerCase();
+			i++;
+		}
 		
 		while( iteradorLista.hasNext() )
 		{
@@ -58,7 +71,7 @@ public class Searcher
 			
 			boolean lineMatch = false;
 			
-			for(String word : keywords )
+			for(String word : normalizedKeywords )
 			{
 				if( line.contains(word))
 				{
@@ -73,13 +86,19 @@ public class Searcher
 			
 			if( lineMatch == true )
 			{
-				results.add(line);
+				results.add(listOfCID10Diseases.get(index));
 			}
+			
+			index++;
 		}
 		
 		if( results.isEmpty() )
 			return null;
 		else
 			return results;
-	} 
+	}
+	
+	private static String removeAccent(String str) {
+	    return Normalizer.normalize(str, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
+	}
 }

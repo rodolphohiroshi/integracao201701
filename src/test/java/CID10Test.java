@@ -8,11 +8,11 @@ import org.junit.After;
 import org.junit.Test;
 
 
-public class SearcherTest {
-	Searcher searcher = new Searcher();
+public class CID10Test {
+	CID10 searcher = new CID10();
 	ArrayList<String> results;
 
-	public SearcherTest() throws URISyntaxException, IOException
+	public CID10Test() throws URISyntaxException, IOException
 	{
 		searcher.load();
 	}
@@ -31,8 +31,8 @@ public class SearcherTest {
 	public void searchMethodTest1() throws IOException
 	{
 		String[] keyword = {"Cólera", "devida", "Vibrio", "cholerae"};	
-		results = searcher.search( keyword );		
-		assertTrue( results.contains( "A000,Cólera devida a Vibrio cholerae 01") && results.contains( "A001,Cólera devida a Vibrio cholerae 01"));
+		results = searcher.search( keyword );
+		assertTrue( results.contains( "A000 Cólera devida a Vibrio cholerae 01") && results.contains( "A001 Cólera devida a Vibrio cholerae 01"));
 	}
 	
 	@Test
@@ -40,7 +40,7 @@ public class SearcherTest {
 	{
 		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
 		results = searcher.search( keyword );		
-		assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
+		assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
 	}
 	
 	@Test
@@ -49,18 +49,6 @@ public class SearcherTest {
 		results = searcher.getListOfDiseases();
 		
 		assertEquals( results.size(), 10774 );
-	}
-	
-	@Test
-	public void multipleSearchsTest() throws IOException
-	{
-		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
-		
-		for( int i = 0; i < 10000; i++ )
-		{
-			results = searcher.search( keyword );		
-			assertTrue( results.contains( "M9989/1,Síndrome mielodisplásica SOE"));
-		}
 	}
 	
 	@Test
@@ -133,6 +121,18 @@ public class SearcherTest {
 		assertNotNull(results);
 		assertEquals( 1, results.size() );
 		assertEquals( "A90 Dengue [dengue clássico]", results.get(0) );
+	}
+	
+	@Test
+	public void multipleSearchsTest() throws IOException
+	{
+		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
+		
+		for( int i = 0; i < 1000; i++ )
+		{
+			results = searcher.search( keyword );		
+			assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
+		}
 	}
 	
 }
