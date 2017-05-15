@@ -56,15 +56,24 @@ public class CID10
 		Iterator<String> iteradorLista = normalizedListOfCID10Diseases.iterator();
 		int index = 0;
 		
+		String[] normalizedKeywords = new String[keywords.length];
+		int i = 0;
+		
+		for(String word : keywords )
+		{
+			normalizedKeywords[i] = removeAccent(word).toLowerCase();
+			i++;
+		}
+		
 		while( iteradorLista.hasNext() )
 		{
 			line = iteradorLista.next();
 			
 			boolean lineMatch = false;
 			
-			for(String word : keywords )
+			for(String word : normalizedKeywords )
 			{
-				if( line.contains(removeAccent(word).toLowerCase()))
+				if( line.contains(word))
 				{
 					lineMatch = true;
 				}
