@@ -3,6 +3,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -21,15 +23,9 @@ public class CID10
 	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings e remove as virgulas.
 	public void load() throws IOException
 	{
-		try 
-		{
-			//Path.separator utiliza o separador de caminhos de diretório apropriado para cada sistema.
-			String path = "src" + File.separator + "main" + File.separator + "resources" + File.separator + "CID-10.csv";
-			br = new BufferedReader(new FileReader(path));
-		} catch (FileNotFoundException e) 
-		{
-			e.printStackTrace();
-		}
+		//Path.separator utiliza o separador de caminhos de diretório apropriado para cada sistema.
+		InputStream configStream = getClass().getResourceAsStream("CID-10.csv");
+		br = new BufferedReader(new InputStreamReader(configStream));
 		
 		String line = "";
 		
