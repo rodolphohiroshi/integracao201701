@@ -26,12 +26,10 @@ Bem Vindo!!  Abaixo, algumas informações que podem ser relevantes para você!
 
 ## Instruções para importação do projeto (Eclipse)
 
- - Após clonar o projeto para o seu PC
- - Clique no menu "Window >> Show View >> Other"
- - Dentro da nova tela expanda a pasta "Git" e selecione a opção "Git Repositories" depois aperte OK
- - No canto inferior esquerdo (dentro de "Git Repositories") selecione "Add an existing local Git repository
- - Selecione a pasta onde você clonou o projeto (no campo Search criteria)
- - No campo Search results, marque o checkbox com o caminho que você escolheu
- - Novamente, no canto inferior esquerdo, clique com o botão direito em "Working Tree >> Import Projects..."
- - Selecione a opção "Import as general project" e clique em "Next >" depois em "Finish" 
- - Em "Package Explorer", clique com o botão direito em integraca0201701 vá em "Configure >> Convert to Maven Project"
+ - Após clonar o projeto para o seu PC com o codigo digitado no Prompt (git clone https://github.com/osmarpixuri/integracao201701)
+ - Abra o Eclipse clique em "New >> Other >> Git >> Git Repository"
+ - Dentro da nova tela selecione a pasta onde foi clonado o projeto clicando no boatão "Browse..." em seguida Finish
+ - No canto esquerdo em "Package Explorer", clique com o botão direito em "Import>> Maven >> Existing Maven Projects"
+ - Selecione o diretório raiz do clone do projeto clicando em "Browse..."
+ - Marque a opção "/pom.xml..." do projeto em seguida Finish
+ - No canto esquerdo em "Package Explorer", aparecerá o projeto pronto para execução
