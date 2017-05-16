@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.inf.ufg</groupId>
   <artifactId>CID10</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>CID 10</name>
   <dependencies>
   	<dependency>
