@@ -37,7 +37,7 @@ public class CID10
 		finalize();
 	}
 	
-	public ArrayList<String> search(String[] keywords ) throws IOException 
+	public ArrayList<String> search(String[] keywords )
 	{
 		String line = "";
 		ArrayList<String> results = new ArrayList<String>();
