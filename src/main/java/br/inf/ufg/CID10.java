@@ -1,38 +1,30 @@
 package br.inf.ufg;
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.ObjectInputStream;
 import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.ListIterator;
 
 public class CID10 
 {
-	private BufferedReader br;
 	private ArrayList<String> listOfCID10Diseases;
 	private ArrayList<String> normalizedListOfCID10Diseases;
 	
+	public ArrayList<String> get() {
+		return listOfCID10Diseases;
+	}
+	
 	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings, remove as virgulas e normaliza as linhas.
-	public void load() throws IOException
-	{
-		listOfCID10Diseases = new ArrayList<String>();
-		normalizedListOfCID10Diseases = new ArrayList<String>();
+	public void load() throws IOException, ClassNotFoundException
+	{		
+		InputStream configStream = getClass().getResourceAsStream("CID-10.java-arraylist-serialized");
+		ObjectInputStream ois = new ObjectInputStream(configStream);
 		
-		InputStream configStream = getClass().getResourceAsStream("CID-10.csv");
-		br = new BufferedReader(new InputStreamReader(configStream));
-		
-		String line;
-		
-		while(( line = br.readLine()) != null )
-		{
-			//Elimina a virgula que separa o código e a descrição da doença no arquivo csv
-			line = line.replace(',', ' ');
-			normalizedListOfCID10Diseases.add(normalizeString(line));
-			listOfCID10Diseases.add( line );	
-		}
-		
-		br.close();
+		listOfCID10Diseases = (ArrayList<String>) ois.readObject();
+		normalizedListOfCID10Diseases = normalizeStringArrayList(listOfCID10Diseases);
+		configStream.close();
+		ois.close();
 	}
 	
 	public void unload() throws Throwable
@@ -82,6 +74,18 @@ public class CID10
 		else {
 			return results;
 		}
+	}
+	
+	// Normaliza as strings em um array de Strings
+	private static ArrayList<String> normalizeStringArrayList(ArrayList<String> stringArray) {
+		ArrayList<String> normalizedStringArrayList = new ArrayList<String>();
+		
+		for(String word : stringArray )
+		{
+			normalizedStringArrayList.add(normalizeString(word));
+		}
+		
+		return normalizedStringArrayList;
 	}
 	
 	// Normaliza as strings em um array de Strings

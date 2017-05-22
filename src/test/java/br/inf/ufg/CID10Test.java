@@ -2,7 +2,6 @@ package br.inf.ufg;
 import static org.junit.Assert.*;
 
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 
 import org.junit.Test;
@@ -12,7 +11,7 @@ public class CID10Test {
 	CID10 searcher;
 	ArrayList<String> results;
 
-	public CID10Test() throws URISyntaxException, IOException
+	public CID10Test() throws IOException, ClassNotFoundException
 	{
 		searcher = new CID10();
 		searcher.load();
