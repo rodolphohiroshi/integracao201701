@@ -28,7 +28,7 @@ Bem Vindo!!  Abaixo, algumas informações que podem ser relevantes para você!
 
  - Após clonar o projeto para o seu PC com o codigo digitado no Prompt (git clone https://github.com/osmarpixuri/integracao201701)
  - Abra o Eclipse clique em "New >> Other >> Git >> Git Repository"
- - Dentro da nova tela selecione a pasta onde foi clonado o projeto clicando no boatão "Browse..." em seguida Finish
+ - Dentro da nova tela selecione a pasta onde foi clonado o projeto clicando no botão "Browse..." em seguida Finish
  - No canto esquerdo em "Package Explorer", clique com o botão direito em "Import>> Maven >> Existing Maven Projects"
  - Selecione o diretório raiz do clone do projeto clicando em "Browse..."
  - Marque a opção "/pom.xml..." do projeto em seguida Finish
