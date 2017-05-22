@@ -9,50 +9,17 @@ import org.junit.Test;
 
 
 public class CID10Test {
-	CID10 searcher = new CID10();
+	CID10 searcher;
 	ArrayList<String> results;
 
 	public CID10Test() throws URISyntaxException, IOException
 	{
+		searcher = new CID10();
 		searcher.load();
 	}
 	
 	@Test
-	public void NumberOfResultsFromSearchMethodTest() throws IOException
-	{
-		String[] keyword = {"Cólera", "devida", "Vibrio", "cholerae"};
-		
-		results = searcher.search(keyword );		
-		assertEquals( results.size(), 2 );
-
-	}
-	
-	@Test
-	public void searchMethodTest1() throws IOException
-	{
-		String[] keyword = {"Cólera", "devida", "Vibrio", "cholerae"};	
-		results = searcher.search( keyword );
-		assertTrue( results.contains( "A000 Cólera devida a Vibrio cholerae 01") && results.contains( "A001 Cólera devida a Vibrio cholerae 01"));
-	}
-	
-	@Test
-	public void searchMethodTest2() throws IOException
-	{
-		String[] keyword = {"M9989/1", "Síndrome", "mielodisplásica", "SOE"};	
-		results = searcher.search( keyword );		
-		assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
-	}
-	
-	@Test
-	public void allLinesAreLoaded() throws IOException
-	{
-		results = searcher.getListOfDiseases();
-		
-		assertEquals( results.size(), 10774 );
-	}
-	
-	@Test
-	public void doesNotIgnorePreposition() throws IOException
+	public void doesNotIgnorePrepositionTest() throws IOException
 	{
 		String[] keyword = {"devida", "a", "Shigella"};	
 		
@@ -62,7 +29,7 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void searchForDescription() throws IOException
+	public void searchForDescriptionTest() throws IOException
 	{
 		String[] keyword = {"dengue"};	
 		
@@ -72,7 +39,7 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void searchForCodeAndDescription() throws IOException
+	public void searchForCodeAndDescriptionTest() throws IOException
 	{
 		String[] keyword = {"90", "dengue"};	
 		
@@ -82,7 +49,7 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void returnsNullWhenNoResultsAreFound() throws IOException
+	public void returnsNullWhenNoResultsAreFoundTest() throws IOException
 	{
 		String[] keyword = {"9099", "dengue", "inexistente"};	
 		
@@ -92,7 +59,7 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void doesNotFindWithCommaBetweenCodeAndDescription() throws IOException
+	public void doesNotFindWithCommaBetweenCodeAndDescriptionTest() throws IOException
 	{
 		String[] keyword = {"90,Dengue"};	
 		
@@ -102,7 +69,7 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void searchIsCaseInsensitive() throws IOException
+	public void searchIsCaseInsensitiveTest() throws IOException
 	{
 		String[] keyword = {"Dengue"};	
 		
@@ -112,7 +79,7 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void searchReturnsCorrectCaseAndAccent() throws IOException
+	public void searchReturnsCorrectCaseAndAccentTest() throws IOException
 	{
 		String[] keyword = {"dengue", "classico"};	
 		
@@ -133,6 +100,16 @@ public class CID10Test {
 			results = searcher.search( keyword );		
 			assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
 		}
+	}
+	
+	@Test(expected=IllegalStateException.class)
+	public void throwsIllegalStateExceptionWithoutLoadTest() throws IOException
+	{
+		String[] keyword = {"devida", "a", "Shigella"};
+		
+		CID10 searcherWithoutLoad = new CID10();
+		
+		results = searcherWithoutLoad.search( keyword );		
 	}
 	
 }
