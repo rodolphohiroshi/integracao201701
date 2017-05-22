@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.text.Normalizer;
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.ListIterator;
 
 public class CID10 
 {
@@ -39,10 +39,9 @@ public class CID10
 	
 	public ArrayList<String> search(String[] keywords )
 	{
-		String line = "";
+		String line;
 		ArrayList<String> results = new ArrayList<String>();
-		Iterator<String> iteradorLista = normalizedListOfCID10Diseases.iterator();
-		int index = 0;
+		ListIterator<String> iteradorLista = normalizedListOfCID10Diseases.listIterator();
 		
 		String[] normalizedKeywords = normalizeStringArray(keywords);
 		
@@ -67,16 +66,16 @@ public class CID10
 			
 			if( lineMatch == true )
 			{
-				results.add(listOfCID10Diseases.get(index));
-			}
-			
-			index++;
+				results.add(listOfCID10Diseases.get(iteradorLista.nextIndex() - 1));
+			}		
 		}
 		
-		if( results.isEmpty() )
+		if( results.isEmpty() ) {
 			return null;
-		else
+		}
+		else {
 			return results;
+		}
 	}
 	
 	// Normaliza as strings em um array de Strings
