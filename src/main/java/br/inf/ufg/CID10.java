@@ -10,12 +10,15 @@ import java.util.ListIterator;
 public class CID10 
 {
 	private BufferedReader br;
-	private ArrayList<String> listOfCID10Diseases = new ArrayList<String>();
-	private ArrayList<String> normalizedListOfCID10Diseases = new ArrayList<String>();
+	private ArrayList<String> listOfCID10Diseases;
+	private ArrayList<String> normalizedListOfCID10Diseases;
 	
 	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings, remove as virgulas e normaliza as linhas.
 	public void load() throws IOException
 	{
+		listOfCID10Diseases = new ArrayList<String>();
+		normalizedListOfCID10Diseases = new ArrayList<String>();
+		
 		InputStream configStream = getClass().getResourceAsStream("CID-10.csv");
 		br = new BufferedReader(new InputStreamReader(configStream));
 		
@@ -39,6 +42,10 @@ public class CID10
 	
 	public ArrayList<String> search(String[] keywords )
 	{
+		if(listOfCID10Diseases == null) {
+			throw new IllegalStateException("Você deve chamar o método load() antes de utilizar o método search.");
+		}
+		
 		String line;
 		ArrayList<String> results = new ArrayList<String>();
 		ListIterator<String> iteradorLista = normalizedListOfCID10Diseases.listIterator();

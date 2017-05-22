@@ -9,11 +9,12 @@ import org.junit.Test;
 
 
 public class CID10Test {
-	CID10 searcher = new CID10();
+	CID10 searcher;
 	ArrayList<String> results;
 
 	public CID10Test() throws URISyntaxException, IOException
 	{
+		searcher = new CID10();
 		searcher.load();
 	}
 	
@@ -99,6 +100,16 @@ public class CID10Test {
 			results = searcher.search( keyword );		
 			assertTrue( results.contains( "M9989/1 Síndrome mielodisplásica SOE"));
 		}
+	}
+	
+	@Test(expected=IllegalStateException.class)
+	public void throwsIllegalStateExceptionWithoutLoadTest() throws IOException
+	{
+		String[] keyword = {"devida", "a", "Shigella"};
+		
+		CID10 searcherWithoutLoad = new CID10();
+		
+		results = searcherWithoutLoad.search( keyword );		
 	}
 	
 }
