@@ -13,10 +13,9 @@ public class CID10
 	private ArrayList<String> listOfCID10Diseases = new ArrayList<String>();
 	private ArrayList<String> normalizedListOfCID10Diseases = new ArrayList<String>();
 	
-	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings e remove as virgulas.
+	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings, remove as virgulas e normaliza as linhas.
 	public void load() throws IOException
 	{
-		//Path.separator utiliza o separador de caminhos de diretório apropriado para cada sistema.
 		InputStream configStream = getClass().getResourceAsStream("CID-10.csv");
 		br = new BufferedReader(new InputStreamReader(configStream));
 		
@@ -26,7 +25,7 @@ public class CID10
 		{
 			//Elimina a virgula que separa o código e a descrição da doença no arquivo csv
 			line = line.replace(',', ' ');
-			normalizedListOfCID10Diseases.add(removeAccent(line).toLowerCase());
+			normalizedListOfCID10Diseases.add(normalizeString(line));
 			listOfCID10Diseases.add( line );	
 		}
 		
@@ -45,14 +44,7 @@ public class CID10
 		Iterator<String> iteradorLista = normalizedListOfCID10Diseases.iterator();
 		int index = 0;
 		
-		String[] normalizedKeywords = new String[keywords.length];
-		int i = 0;
-		
-		for(String word : keywords )
-		{
-			normalizedKeywords[i] = removeAccent(word).toLowerCase();
-			i++;
-		}
+		String[] normalizedKeywords = normalizeStringArray(keywords);
 		
 		while( iteradorLista.hasNext() )
 		{
@@ -87,6 +79,26 @@ public class CID10
 			return results;
 	}
 	
+	// Normaliza as strings em um array de Strings
+	private static String[] normalizeStringArray(String[] stringArray) {
+		String[] normalizedStringArray = new String[stringArray.length];
+		int i = 0;
+		
+		for(String word : stringArray )
+		{
+			normalizedStringArray[i] = normalizeString(word);
+			i++;
+		}
+		
+		return normalizedStringArray;
+	}
+	
+	// Remove acentos e deixa todas as letras em caixa baixa.
+	private static String normalizeString(String str) {
+		return removeAccent(str).toLowerCase();
+	}
+	
+	// Remove acentos da String
 	private static String removeAccent(String str) {
 	    return Normalizer.normalize(str, Normalizer.Form.NFD).replaceAll("[^\\p{ASCII}]", "");
 	}
