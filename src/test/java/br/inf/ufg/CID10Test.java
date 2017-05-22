@@ -44,14 +44,6 @@ public class CID10Test {
 	}
 	
 	@Test
-	public void allLinesAreLoaded() throws IOException
-	{
-		results = searcher.getListOfDiseases();
-		
-		assertEquals( results.size(), 10774 );
-	}
-	
-	@Test
 	public void doesNotIgnorePreposition() throws IOException
 	{
 		String[] keyword = {"devida", "a", "Shigella"};	

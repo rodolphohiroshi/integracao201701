@@ -13,11 +13,6 @@ public class CID10
 	private ArrayList<String> listOfCID10Diseases = new ArrayList<String>();
 	private ArrayList<String> normalizedListOfCID10Diseases = new ArrayList<String>();
 	
-	public ArrayList<String> getListOfDiseases()
-	{
-		return listOfCID10Diseases;
-	}
-	
 	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings e remove as virgulas.
 	public void load() throws IOException
 	{
@@ -25,7 +20,7 @@ public class CID10
 		InputStream configStream = getClass().getResourceAsStream("CID-10.csv");
 		br = new BufferedReader(new InputStreamReader(configStream));
 		
-		String line = "";
+		String line;
 		
 		while(( line = br.readLine()) != null )
 		{
