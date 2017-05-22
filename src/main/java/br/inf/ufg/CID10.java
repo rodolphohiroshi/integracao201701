@@ -15,7 +15,7 @@ public class CID10
 		return listOfCID10Diseases;
 	}
 	
-	//Método load carrega arquivo CID10.csv dentro de um arraylist de strings, remove as virgulas e normaliza as linhas.
+	//Carrega arquivo CID10.csv dentro de um arraylist de strings, remove as virgulas e normaliza as linhas.
 	public void load() throws IOException, ClassNotFoundException
 	{		
 		InputStream configStream = getClass().getResourceAsStream("CID-10.java-arraylist-serialized");
@@ -35,7 +35,7 @@ public class CID10
 	public ArrayList<String> search(String[] keywords )
 	{
 		if(listOfCID10Diseases == null) {
-			throw new IllegalStateException("Você deve chamar o método load() antes de utilizar o método search.");
+			throw new IllegalStateException("Deve chamar o metodo load() antes de utilizar o metodo search.");
 		}
 		
 		ArrayList<String> results = new ArrayList<String>();
