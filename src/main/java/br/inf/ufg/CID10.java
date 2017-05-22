@@ -46,18 +46,17 @@ public class CID10
 			throw new IllegalStateException("Você deve chamar o método load() antes de utilizar o método search.");
 		}
 		
-		String line;
 		ArrayList<String> results = new ArrayList<String>();
 		ListIterator<String> iteradorLista = normalizedListOfCID10Diseases.listIterator();
+		String line;
+		boolean lineMatch = false;
 		
 		String[] normalizedKeywords = normalizeStringArray(keywords);
 		
 		while( iteradorLista.hasNext() )
 		{
 			line = iteradorLista.next();
-			
-			boolean lineMatch = false;
-			
+						
 			for(String word : normalizedKeywords )
 			{
 				if( line.contains(word))
