@@ -11,10 +11,6 @@ public class CID10
 	private ArrayList<String> listOfCID10Diseases;
 	private ArrayList<String> normalizedListOfCID10Diseases;
 	
-	public ArrayList<String> get() {
-		return listOfCID10Diseases;
-	}
-	
 	//Carrega arraylist serializado do CID10
 	public void load() throws IOException, ClassNotFoundException
 	{	
