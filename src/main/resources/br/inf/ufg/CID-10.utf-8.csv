@@ -1,0 +1,1455 @@
+A00,Cólera
+A000,Cólera devida a Vibrio cholerae 01
+A001,Cólera devida a Vibrio cholerae 01
+A009,Cólera não especificada
+A01,Febres tifóide e paratifóide
+A010,Febre tifóide
+A011,Febre paratifóide A
+A012,Febre paratifóide B
+A013,Febre paratifóide C
+A014,Febre paratifóide não especificada
+A02,Outras infecções por Salmonella
+A020,Enterite por salmonela
+A021,Septicemia por salmonela
+A022,Infecções localizadas por salmonela
+A028,Outras infecções especificadas por salmonela
+A029,Infecção não especificada por salmonela
+A03,Shiguelose
+A030,Shiguelose devida a Shigella dysenteriae
+A031,Shiguelose devida a Shigella flexneri
+A032,Shiguelose devida a Shigella boydii
+A033,Shiguelose devida a Shigella sonnei
+A038,Outras shigueloses
+A039,Shiguelose não especificada
+A04,Outras infecções intestinais bacterianas
+A040,Infecção por Escherichia coli enteropatogênica
+A041,Infecção por Escherichia coli enterotoxigênica
+A042,Infecção por Escherichia coli enteroinvasiva
+A043,Infecção por Escherichia coli enterohemorrágica
+A044,Outras infecções intestinais por Escherichia coli
+A045,Enterite por Campylobacter
+A046,Enterite devida a Yersinia enterocolítica
+A047,Enterocolite devida a Clostridium difficile
+A048,Outras infecções bacterianas intestinais especificadas
+A049,Infecção intestinal bacteriana não especificada
+A05,Outras intoxicações alimentares bacterianas
+A050,Intoxicação alimentar estafilocócica
+A051,Botulismo
+A052,Intoxicação alimentar devida a Clostridium perfringens [Clostridium welchii]
+A053,Intoxicação alimentar devida a Vibrio parahemolyticus
+A054,Intoxicação alimentar devida a Bacillus cereus
+A058,Outras intoxicações alimentares bacterianas especificadas
+A059,Intoxicação alimentar bacteriana não especificada
+A06,Amebíase
+A060,Disenteria amebiana aguda
+A061,Amebíase intestinal crônica
+A062,Colite amebiana não-disentérica
+A063,Ameboma intestinal
+A064,Abscesso amebiano do fígado
+A065,Abscesso amebiano do pulmão
+A066,Abscesso amebiano do cérebro
+A067,Amebíase cutânea
+A068,Infecção amebiana de outras localizações
+A069,Amebíase não especificada
+A07,Outras doenças intestinais por protozoários
+A070,Balantidíase
+A071,Giardíase [lamblíase]
+A072,Criptosporidiose
+A073,Isosporíase
+A078,Outras doenças intestinais especificadas por protozoários
+A079,Doença intestinal não especificada por protozoários
+A08,Infecções intestinais virais
+A080,Enterite por rotavírus
+A081,Gastroenteropatia aguda pelo agente de Norwalk
+A082,Enterite por adenovírus
+A083,Outras enterites virais
+A084,Infecção intestinal devida a vírus não especificado
+A085,Outras infecções intestinais especificadas
+A09,Diarréia e gastroenterite de origem infecciosa presumível
+A15,Tuberculose respiratória
+A150,Tuberculose pulmonar
+A151,Tuberculose pulmonar
+A152,Tuberculose pulmonar
+A153,Tuberculose pulmonar
+A154,Tuberculose dos gânglios intratorácicos
+A155,Tuberculose da laringe
+A156,Pleuris tuberculoso
+A157,Tuberculose primária das vias respiratórias
+A158,Outras formas de tuberculose das vias respiratórias
+A159,Tuberculose não especificada das vias respiratórias
+A16,Tuberculose das vias respiratórias
+A160,Tuberculose pulmonar com exames bacteriológico e histológico negativos
+A161,Tuberculose pulmonar
+A162,Tuberculose pulmonar
+A163,Tuberculose dos gânglios intratorácicos
+A164,Tuberculose da laringe
+A165,Pleurisia tuberculosa
+A167,Tuberculosa respiratória primária sem menção de confirmação bacteriológica ou histológica
+A168,Outras formas de tuberculose das vias respiratórias
+A169,Tuberculose respiratória
+A17,Tuberculose do sistema nervoso
+A170,Meningite tuberculosa
+A171,Tuberculoma meníngeo
+A178,Outras tuberculoses do sistema nervoso
+A179,Tuberculose não especificada do sistema nervoso
+A18,Tuberculose de outros órgãos
+A180,Tuberculose óssea e das articulações
+A181,Tuberculose do aparelho geniturinário
+A182,Linfadenopatia tuberculosa periférica
+A183,Tuberculose do intestino
+A184,Tuberculose de pele e do tecido celular subcutâneo
+A185,Tuberculose do olho
+A186,Tuberculose do ouvido
+A187,Tuberculose das supra-renais
+A188,Tuberculose de outros órgãos especificados
+A19,Tuberculose miliar
+A190,Tuberculose miliar aguda de localização única e especificada
+A191,Tuberculose miliar aguda de múltiplas localizações
+A192,Tuberculose miliar aguda não especificada
+A198,Outras tuberculoses miliares
+A199,Tuberculose miliar não especificada
+A20,Peste
+A200,Peste bubônica
+A201,Peste celulocutânea
+A202,Peste pneumônica
+A203,Peste meníngea
+A207,Peste septicêmica
+A208,Outras formas de peste
+A209,Peste
+A21,Tularemia
+A210,Tularemia ulceroglandular
+A211,Tularemia oculoglandular
+A212,Tularemia pulmonar
+A213,Tularemia gastrointestinal
+A217,Tularemia generalizada
+A218,Outras formas de tularemia
+A219,Tularemia
+A22,Carbúnculo
+A220,Carbúnculo cutâneo
+A221,Carbúnculo pulmonar
+A222,Carbúnculo gastrointestinal
+A227,Septicemia carbunculosa
+A228,Outras formas de carbúnculo
+A229,Carbúnculo
+A23,Brucelose
+A230,Brucelose por Brucella melitensis
+A231,Brucelose por Brucella abortus
+A232,Brucelose por Brucella suis
+A233,Brucelose por Brucella canis
+A238,Outras bruceloses
+A239,Brucelose não especificada
+A24,Mormo e melioidose
+A240,Mormo
+A241,Melioidose aguda e fulminante
+A242,Melioidose subaguda e crônica
+A243,Outras melioidoses
+A244,Melioidose não especificada
+A25,Febres transmitidas por mordedura de rato
+A250,Espirilose
+A251,Estreptobacilose
+A259,Febre transmitida por mordedura de rato
+A26,Erisipelóide
+A260,Erisipelóide cutâneo
+A267,Septicemia por Erysipelothrix
+A268,Outras formas de erisipelóide
+A269,Erisipelóide não especificado
+A27,Leptospirose
+A270,Leptopirose icterohemorrágica
+A278,Outras formas de leptospirose
+A279,Leptospirose não especificada
+A28,Outras doenças bacterianas zoonóticas não classificadas em outra parte
+A280,Pasteurelose
+A281,Doença por arranhadura do gato
+A282,Yersiniose extra-intestinal
+A288,Outras doenças bacterianas zoonóticas especificadas não classificadas em outra parte
+A289,Doença bacteriana zoonótica não especificada
+A30,Hanseníase [doença de Hansen] [lepra]
+A300,Hanseníase [lepra] indeterminada
+A301,Hanseníase [lepra] tuberculóide
+A302,Hanseníase [lepra] tuberculóide borderline
+A303,Hanseníase [lepra] dimorfa
+A304,Hanseníase [lepra] lepromatosa borderline
+A305,Hanseníase [lepra] lepromatosa
+A308,Outras formas de hanseníase [lepra]
+A309,Hanseníase [lepra] não especificada
+A31,Infecções devidas a outras micobactérias
+A310,Infecção pulmonar micobacteriana
+A311,Infecção cutânea micobacteriana
+A318,Outras infecções micobacterianas
+A319,Infecção micobacteriana não especificada
+A32,Listeriose [listeríase]
+A320,Listeriose cutânea
+A321,Meningite e meningoencefalite por listéria
+A327,Septicemia listeriótica
+A328,Outras formas de listeriose
+A329,Listeriose não especificada
+A33,Tétano do recém-nascido [neonatal]
+A34,Tétano obstétrico
+A35,Outros tipos de tétano
+A36,Difteria
+A360,Difteria faríngea
+A361,Difteria nasofaríngea
+A362,Difteria laríngea
+A363,Difteria cutânea
+A368,Outras formas de difteria
+A369,Difteria não especificada
+A37,Coqueluche
+A370,Coqueluche por Bordetella pertussis
+A371,Coqueluche por Bordetella parapertussis
+A378,Coqueluche por outras espécies da Bordetella
+A379,Coqueluche não especificada
+A38,Escarlatina
+A39,Infecção meningogócica
+A390,Meningite meningocócica
+A391,Síndrome de Waterhouse-Friderichsen
+A392,Meningococcemia aguda
+A393,Meningococcemia crônica
+A394,Meningococcemia não especificada
+A395,Cardite por meningococos
+A398,Outras infecções por meningococos
+A399,Infecção meningocócica não especificada
+A40,Septicemia estreptocócica
+A400,Septicemia por Streptococcus do grupo A
+A401,Septicemia por Streptococcus do grupo B
+A402,Septicemia por Streptococcus do grupo D
+A403,Septicemia por Streptococcus pneumonia
+A408,Outras septicemias estreptocócicas
+A409,Septicemia estreptocócica não especificada
+A41,Outras septicemias
+A410,Septicemia por Staphylococcus aureus
+A411,Septicemia por outros estafilococos especificados
+A412,Septicemia por estafilococos não especificados
+A413,Septicemia por Haemophilus influenzae
+A414,Septicemia por anaeróbios
+A415,Septicemia por outros microorganismos gram-negativos
+A418,Outras septicemias especificadas
+A419,Septicemia não especificada
+A42,Actinomicose
+A420,Actinomicose pulmonar
+A421,Actinomicose abdominal
+A422,Actinomicose cervicofacial
+A427,Septicemia actinomicótica
+A428,Outras formas de actinomicose
+A429,Actinomicose não especificada
+A43,Nocardiose
+A430,Nocardiose pulmonar
+A431,Nocardiose cutânea
+A438,Outras formas de nocardiose
+A439,Nocardiose não especificada
+A44,Bartonelose
+A440,Bartonelose sistêmica
+A441,Bartonelose cutânea e cutâneo-mucosa
+A448,Outras formas de bartonelose
+A449,Bartonelose não especificada
+A46,Erisipela
+A48,Outras doenças bacterianas não classificadas em outra parte
+A480,Gangrena gasosa
+A481,Doença dos legionários
+A482,Doença dos legionários não-pneumônica [febre de Pontiac]
+A483,Síndrome do choque tóxico
+A484,Febre purpúrica do Brasil
+A488,Outras doenças bacterianas especificadas
+A49,Infecção bacteriana de localização não especificada
+A490,Infecção estafilocócica de localização não especificada
+A491,Infecção estreptocócica de localização não especificada
+A492,Infecção por Haemophilus influenzae de localização não especificada
+A493,Infecção por Mycoplasma de localização não especificada
+A498,Outras infecções bacterianas de localização não especificada
+A499,Infecção bacteriana não especificada
+A50,Sífilis congênita
+A500,Sífilis congênita precoce sintomática
+A501,Sífilis congênita precoce
+A502,Sífilis congênita precoce não especificada
+A503,Oculopatia sifilítica congênita tardia
+A504,Neurossífilis congênita tardia [neurossífilis juvenil]
+A505,Outras formas tardias e sintomáticas da sífilis congênita
+A506,Sífilis congênita tardia latente
+A507,Sífilis congênita tardia não especificada
+A509,Sífilis congênita não especificada
+A51,Sífilis precoce
+A510,Sífilis genital primária
+A511,Sífilis anal primária
+A512,Sífilis primária de outras localizações
+A513,Sífilis secundária da pele e das mucosas
+A514,Outras formas de sífilis secundária
+A515,Sífilis precoce latente
+A519,Sífilis precoce não especificada
+A52,Sífilis tardia
+A520,Sífilis cardiovascular
+A521,Neurossífilis sintomática
+A522,Neurossífilis assintomática
+A523,Neurossífilis não especificada
+A527,Outras formas de sífilis tardia sintomática
+A528,Sífilis tardia latente
+A529,Sífilis tardia não especificada
+A53,Outras formas e as não especificadas da sífilis
+A530,Sífilis latente
+A539,Sífilis não especificada
+A54,Infecção gonocócica
+A540,Infecção gonocócica do trato geniturinário inferior
+A541,Infecção gonocócica do trato geniturinário inferior
+A542,Pelviperitonite gonocócica e outras infecções geniturinárias gonocócicas
+A543,Infecção gonocócica do olho
+A544,Infecção gonocócica do sistema músculo-esquelético
+A545,Faringite gonocócica
+A546,Infecção gonocócica do ânus ou do reto
+A548,Outras infecções gonocócicas
+A549,Infecção gonocócica não especificada
+A55,Linfogranuloma (venéreo) por clamídia
+A56,Outras infecções causadas por clamídias transmitidas por via sexual
+A560,Infecções por clamídias do trato geniturinário inferior
+A561,Infecção por clamídias
+A562,Infecção por clamídias do trato geniturinário
+A563,Infecção do ânus e do reto por clamídias
+A564,Infecção da faringe por clamídias
+A568,Infecção por clamídias transmitida por via sexual
+A57,Cancro mole
+A58,Granuloma inguinal
+A59,Tricomoníase
+A590,Tricomoníase urogenital
+A598,Outras localizações de tricomoníase
+A599,Tricomoníase não especificada
+A60,Infecções anogenitais pelo vírus do herpes [herpes simples]
+A600,Infecção dos órgãos genitais e do trato geniturinário pelo vírus do herpes
+A601,Infecção da margem cutânea do ânus e do reto pelo vírus do herpes
+A609,Infecção anogenital não especificada pelo vírus do herpes
+A63,Outras doenças de transmissão predominantemente sexual
+A630,Verrugas anogenitais (venéreas)
+A638,Outras doenças especificadas de transmissão predominantemente sexual
+A64,Doenças sexualmente transmitidas
+A65,Sífilis não-venérea
+A66,Bouba
+A660,Lesões iniciais da bouba
+A661,Papilomas múltiplos e bouba plantar úmida (cravo de bouba)
+A662,Outras lesões cutâneas precoces da bouba
+A663,Hiperceratose devida a bouba
+A664,Gomas e úlceras devidas à bouba
+A665,Gangosa
+A666,Lesões osteoarticulares devidas à bouba
+A667,Outras manifestações da bouba
+A668,Bouba latente
+A669,Bouba não especificada
+A67,Pinta [carate]
+A670,Lesões primárias da pinta
+A671,Lesões intermediárias da pinta
+A672,Lesões tardias da pinta
+A673,Lesões mistas da pinta
+A679,Pinta não especificada
+A68,Febres recorrentes [Borrelioses]
+A680,Febre recorrente transmitida por piolhos
+A681,Febre recorrente transmitida por carrapatos
+A689,Febre recorrente não especificada
+A69,Outras infecções por espiroquetas
+A690,Estomatite ulcerativa necrotizante
+A691,Outras infecções de Vincent
+A692,Doença de Lyme
+A698,Outras infecções especificadas por espiroquetas
+A699,Infecção por espiroqueta
+A70,Infecções causadas por Clamídia psittaci
+A71,Tracoma
+A710,Fase inicial do tracoma
+A711,Fase ativa do tracoma
+A719,Tracoma não especificado
+A74,Outras doenças causadas por Clamídias
+A740,Conjuntivite causada por clamídias
+A748,Outras doenças causadas por clamídias
+A749,Infecção causada por clamídias não especificada
+A75,Tifo exantemático
+A750,Tifo epidêmico transmitido por piolhos devido a Rickettsia prowazekii
+A751,Tifo recrudescente [doença de Brill]
+A752,Tifo por Rickettsia typhi
+A753,Tifo por Rickettsia tsutsugamuchi
+A759,Tifo não especificado
+A77,Febre maculosa [rickettsioses transmitidas por carrapatos]
+A770,Febre maculosa por Rickettsia richettsii
+A771,Febre maculosa por Rickettsia conorii
+A772,Febre maculosa devida à Rickettsia siberica
+A773,Febre maculosa devida à Rickettsia australis
+A778,Outras febres maculosas
+A779,Febre maculosa não especificada
+A78,Febre Q
+A79,Outras rickettsioses
+A790,Febre das trincheiras
+A791,Rickettsiose variceliforme devida à Rickettsia akari
+A798,Outros tipos de rickettsioses especificadas
+A799,Rickettsiose não especificada
+A80,Poliomielite aguda
+A800,Poliomielite paralítica aguda
+A801,Poliomielite paralítica aguda
+A802,Poliomielite paralítica aguda
+A803,Poliomielites paralíticas agudas
+A804,Poliomielite aguda não-paralítica
+A809,Poliomielite aguda não especificada
+A81,Infecções por vírus atípicos do sistema nervoso central
+A810,Doença de Creutzfeldt-Jakob
+A811,Panencefalite esclerosante subaguda
+A812,Leucoencefalopatia multifocal progressiva
+A818,Outras infecções por vírus atípicos do sistema nervoso central
+A819,Infecção não especificada do sistema nervosos central por vírus atípicos
+A82,Raiva
+A820,Raiva silvestre
+A821,Raiva urbana
+A829,Raiva não especificada
+A83,Encefalite por vírus transmitidos por mosquitos
+A830,Encefalite japonesa
+A831,Encefalite eqüina ocidental
+A832,Encefalite eqüina oriental
+A833,Encefalite de St. Louis
+A834,Encefalite australiana
+A835,Encefalite da Califórnia
+A836,Doença pelo vírus de Rocio
+A838,Outras encefalites por vírus transmitidas por mosquitos
+A839,Encefalite não especificada por vírus transmitida por mosquitos
+A84,Encefalite por vírus transmitido por carrapatos
+A840,Encefalite da taiga [encefalite vernoestival russa]
+A841,Encefalite da Europa Central transmitida por carrapatos
+A848,Outras encefalites por vírus transmitidas por carrapatos
+A849,Encefalite não especificada por vírus transmitida por carrapatos
+A85,Outras encefalites virais
+A850,Encefalite por enterovírus
+A851,Encefalite por adenovírus
+A852,Encefalite por vírus transmitido por artrópodes
+A858,Outras encefalites virais especificadas
+A86,Encefalite viral
+A87,Meningite viral
+A870,Meningite por enterovírus
+A871,Meningite por adenovírus
+A872,Coriomeningite linfocitária
+A878,Outras meningites virais
+A879,Meningite viral não especificada
+A88,Outras infecções virais do sistema nervoso central não classificadas em outra parte
+A880,Febre exantemática por enterovírus [exantema de Boston]
+A881,Vertigem epidêmica
+A888,Outras infecções virais especificadas do sistema nervoso central
+A89,Infecções virais não especificadas do sistema nervoso central
+A90,Dengue [dengue clássico]
+A91,Febre hemorrágica devida ao vírus do dengue
+A92,Outras febres virais transmitidas por mosquitos
+A920,Febre de Chikungunya
+A921,Febre de O'nyong-nyong
+A922,Febre eqüina venezuelana
+A923,Infecção pelo vírus West Nile
+A924,Febre do vale do Rift
+A928,Outras febres virais especificadas transmitidas por mosquitos
+A929,Febre viral transmitida por mosquitos
+A93,Outras febres por vírus transmitidas por artrópodes não classificadas em outra parte
+A930,Febre de Oropouche
+A931,Febre por flebótomos
+A932,Febre do Colorado transmitida por carrapatos
+A938,Outras febres virais especificadas transmitidas por artrópodes
+A94,Febre viral transmitida por artrópodes
+A95,Febre amarela
+A950,Febre amarela silvestre
+A951,Febre amarela urbana
+A959,Febre amarela não especificada
+A96,Febre hemorrágica por arenavírus
+A960,Febre hemorrágica de Junin
+A961,Febre hemorrágica de Machupo
+A962,Febre de Lassa
+A968,Outras febres hemorrágicas por arenavírus
+A969,Febre hemorrágica por arenavírus
+A98,Outras febres hemorrágicas por vírus
+A980,Febre hemorrágica da Criméia (do Congo)
+A981,Febre hemorrágica de Omsk
+A982,Doença da floresta de Kyasanur
+A983,Doença de Marburg
+A984,Doença pelo vírus Ebola
+A985,Febre hemorrágica com síndrome renal
+A988,Outras febres hemorrágicas especificadas por vírus
+A99,Febres hemorrágicas virais não especificadas
+B00,Infecções pelo vírus do herpes [herpes simples]
+B000,Eczema herpético
+B001,Dermatite vesicular devido ao vírus do herpes
+B002,Gengivoestomatite e faringoamigdalite devida ao vírus do herpes
+B003,Meningite devida ao vírus do herpes
+B004,Encefalite devida ao vírus do herpes
+B005,Afecções oculares devidas ao vírus do herpes
+B007,Doença disseminada devida ao vírus do herpes
+B008,Outras formas de infecção devida ao vírus do herpes
+B009,Infecção não especificada devida ao vírus do herpes
+B01,Varicela [Catapora]
+B010,Meningite por varicela
+B011,Encefalite por varicela
+B012,Pneumopatia varicelosa
+B018,Varicela com outras complicações
+B019,Varicela sem complicação
+B02,Herpes zoster [Zona]
+B020,Encefalite pelo vírus do herpes zoster
+B021,Meningite pelo vírus do herpes zoster
+B022,Herpes zoster acompanhado de outras manifestações neurológicas
+B023,Herpes zoster oftálmico
+B027,Herpes zoster disseminado
+B028,Herpes zoster com outras complicações
+B029,Herpes zoster sem complicação
+B03,Varíola
+B04,Varíola dos macacos [Monkeypox]
+B05,Sarampo
+B050,Sarampo complicado por encefalite
+B051,Sarampo complicado por meningite
+B052,Sarampo complicado por pneumonia
+B053,Sarampo complicado por otite média
+B054,Sarampo com complicações intestinais
+B058,Sarampo com outras complicações
+B059,Sarampo sem complicação
+B06,Rubéola
+B060,Rubéola com complicações neurológicas
+B068,Rubéola com outras complicações
+B069,Rubéola sem complicação
+B07,Verrugas de origem viral
+B08,Outras infecções virais caracterizadas por lesões da pele e das membranas mucosas
+B080,Outras infecções por ortopoxvírus
+B081,Molusco contagioso
+B082,Exantema súbito [sexta doença]
+B083,Eritema infeccioso [quinta doença]
+B084,Estomatite vesicular devida a enterovírus com exantema
+B085,Faringite vesicular devida a enterovírus
+B088,Outras infecções virais especificadas caracterizadas por lesões de pele e das membranas mucosas
+B09,Infecção viral não especificada caracterizada por lesões da pele e membranas mucosas
+B15,Hepatite aguda A
+B150,Hepatite A com coma hepático
+B159,Hepatite A sem coma hepático
+B16,Hepatite aguda B
+B160,Hepatite aguda B com agente Delta (co-infecção)
+B161,Hepatite aguda B com agente Delta
+B162,Hepatite aguda B sem agente Delta
+B169,Hepatite aguda B sem agente Delta e sem coma hepático
+B17,Outras hepatites virais agudas
+B170,(Super)infecção Delta aguda de portador de hepatite B
+B171,Hepatite aguda C
+B172,Hepatite aguda E
+B178,Outras hepatites virais agudas especificadas
+B18,Hepatite viral crônica
+B180,Hepatite viral crônica B com agente Delta
+B181,Hepatite crônica viral B sem agente Delta
+B182,Hepatite viral crônica C
+B188,Outras hepatites crônicas virais
+B189,Hepatite viral crônica não especificada
+B19,Hepatite viral não especificada
+B190,Hepatite viral
+B199,Hepatite viral
+B20,Doença pelo vírus da imunodeficiência humana [HIV]
+B200,Doença pelo HIV resultando em infecções micobacterianas
+B201,Doença pelo HIV resultando em outras infecções bacterianas
+B202,Doença pelo HIV resultando em doença citomegálica
+B203,Doença pelo HIV resultando em outras infecções virais
+B204,Doença pelo HIV resultando em candidíase
+B205,Doença pelo HIV resultando em outras micoses
+B206,Doença pelo HIV resultando em pneumonia por Pneumocystis jirovecii
+B207,Doença pelo HIV resultando em infecções múltiplas
+B208,Doença pelo HIV resultando em outras doenças infecciosas e parasitárias
+B209,Doença pelo HIV resultando em doença infecciosa ou parasitária não especificada
+B21,Doença pelo vírus da imunodeficiência humana [HIV]
+B210,Doença pelo HIV resultando em sarcoma de Kaposi
+B211,Doença pelo HIV resultando em linfoma de Burkitt
+B212,Doença pelo HIV resultando em outros tipos de linfoma não-Hodgkin
+B213,Doença pelo HIV resultando em outras neoplasias malignas dos tecidos linfático
+B217,Doença pelo HIV resultando em múltiplas neoplasias malignas
+B218,Doença pelo HIV resultando em outras neoplasias malignas
+B219,Doença pelo HIV resultando em neoplasia maligna não especificada
+B22,Doença pelo vírus da imunodeficiência humana [HIV] resultando em outras doenças especificadas
+B220,Doença pelo HIV resultando em encefalopatia
+B221,Doença pelo HIV resultando em pneumonite intersticial linfática
+B222,Doença pelo HIV resultando em síndrome de emaciação
+B227,Doença pelo HIV resultando em doenças múltiplas classificadas em outra parte
+B23,Doença pelo vírus da imunodeficiência humana [HIV] resultando em outras doenças
+B230,Síndrome de infecção aguda pelo HIV
+B231,Doença pelo HIV resultando em linfadenopatias generalizadas (persistentes)
+B232,Doença pelo HIV resultando em anomalias hematológicas e imunológicas não classificadas em outra parte
+B238,Doença pelo HIV resultando em outra afecções especificadas
+B24,Doença pelo vírus da imunodeficiência humana [HIV] não especificada
+B25,Doença por citomegalovírus
+B250,Pneumonite por citomegalovírus
+B251,Hepatite por citomegalovírus
+B252,Pancreatite por citomegalovírus
+B258,Outras doenças por citomegalovírus
+B259,Doença não especificada por citomegalovírus
+B26,Caxumba [Parotidite epidêmica]
+B260,Orquite por caxumba [parotidite epidêmica]
+B261,Meningite por caxumba [parotidite epidêmica]
+B262,Encefalite por caxumba [parotidite epidêmica]
+B263,Pancreatite por caxumba [parotidite epidêmica]
+B268,Caxumba [parotidite epidêmica] com outras complicações
+B269,Caxumba [parotidite epidêmica] sem complicações
+B27,Mononucleose infecciosa
+B270,Mononucleose pelo vírus herpes gama
+B271,Mononucleose por citomegalovírus
+B278,Outras mononucleoses infecciosas
+B279,Mononucleose infecciosa não especificada
+B30,Conjuntivite viral
+B300,Ceratoconjuntivite devida a adenovírus
+B301,Conjuntivite devida a adenovírus
+B302,Faringoconjuntivite viral
+B303,Conjuntivite hemorrágica aguda endêmica (por enterovírus)
+B308,Outras conjuntivites virais
+B309,Conjuntivite viral não especificada
+B33,Outras doenças por vírus não classificada em outra parte
+B330,Mialgia epidêmica
+B331,Doença de Ross River
+B332,Cardite viral
+B333,Infecção por retrovírus não classificada em outra parte
+B334,Síndrome (cardio-)pulmonar por Hantavírus [SPH] [SCPH]
+B338,Outras doenças especificadas por vírus
+B34,Doenças por vírus
+B340,Infecção por adenovírus de localização não especificada
+B341,Infecção por enterovírus de localização não especificada
+B342,Infecção por coronavírus de localização não especificada
+B343,Infecção por parvovírus de localização não especificada
+B344,Infecção por papovavírus de localização não especificada
+B348,Outras infecções por vírus de localização não especificada
+B349,Infecção viral não especificada
+B35,Dermatofitose
+B350,Tinha da barba e do couro cabeludo
+B351,Tinha das unhas
+B352,Tinha da mão
+B353,Tinha dos pés
+B354,Tinha do corpo
+B355,Tinha imbricada
+B356,Tinea cruris
+B358,Outras dermatofitoses
+B359,Dermatofitose não especificada
+B36,Outras micoses superficiais
+B360,Pitiríase versicolor
+B361,Tinha negra
+B362,Piedra branca
+B363,Piedra negra
+B368,Outras micoses superficiais especificadas
+B369,Micose superficial não especificada
+B37,Candidíase
+B370,Estomatite por Candida
+B371,Candidíase pulmonar
+B372,Candidíase da pele e das unhas
+B373,Candidíase da vulva e da vagina
+B374,Candidíase de outras localizações urogenitais
+B375,Meningite por Candida
+B376,Endocardite por Candida
+B377,Septicemia por Candida
+B378,Candidíase de outras localizações
+B379,Candidíase não especificada
+B38,Coccidioidomicose
+B380,Coccidioidomicose pulmonar aguda
+B381,Coccidioidomicose pulmonar crônica
+B382,Coccidioidomicose pulmonar não especificada
+B383,Coccidioidomicose cutânea
+B384,Meningite por coccidioidomicose
+B387,Coccidioidomicose disseminada
+B388,Outras formas de coccidioidomicose
+B389,Coccidioidomicose não especificada
+B39,Histoplasmose
+B390,Histoplasmose pulmonar aguda por Histoplasma capsulatum
+B391,Histoplasmose pulmonar crônica por Histoplasma capsulatum
+B392,Histoplasmose pulmonar não especificada por Histoplasma capsulatum
+B393,Histoplasmose disseminada por Histoplasma capsulatum
+B394,Histoplasmose não especificada por Histoplasma capsulatum
+B395,Histoplasmose por Histoplasma duboisii
+B399,Histoplasmose não especificada
+B40,Blastomicose
+B400,Blastomicose pulmonar aguda
+B401,Blastomicose pulmonar crônica
+B402,Blastomicose pulmonar não especificada
+B403,Blastomicose cutânea
+B407,Blastomicose disseminada
+B408,Outras formas de blastomicose
+B409,Blastomicose não especificada
+B41,Paracoccidioidomicose
+B410,Paracoccidioidomicose pulmonar
+B417,Paracoccidioidomicose disseminada
+B418,Outras formas de paracoccidioidomicose
+B419,Paracoccidioidomicose não especificada
+B42,Esporotricose
+B420,Esporotricose pulmonar
+B421,Esporotricose linfocutânea
+B427,Esporotricose disseminada
+B428,Outras formas de esporotricose
+B429,Esporotricose não especificada
+B43,Cromomicose e abscesso feomicótico
+B430,Cromomicose cutânea
+B431,Abscesso cerebral feomicótico
+B432,Abscesso e cisto feomicótico subcutâneos
+B438,Outras formas de cromomicose
+B439,Cromomicose não especificada
+B44,Aspergilose
+B440,Aspergilose pulmonar invasiva
+B441,Outras aspergiloses pulmonares
+B442,Aspergilose amigdaliana
+B447,Aspergilose disseminada
+B448,Outras formas de aspergilose
+B449,Aspergilose não especificada
+B45,Criptococose
+B450,Criptococose pulmonar
+B451,Criptococose cerebral
+B452,Criptococose cutânea
+B453,Criptococose óssea
+B457,Criptococose disseminada
+B458,Outras formas de criptococose
+B459,Criptococose não especificada
+B46,Zigomicose
+B460,Mucormicose pulmonar
+B461,Mucormicose rinocerebral
+B462,Mucormicose gastrointestinal
+B463,Mucormicose cutânea
+B464,Mucormicose disseminada
+B465,Mucormicose não especificada
+B468,Outras zigomicoses
+B469,Zigomicose não especificada
+B47,Micetoma
+B470,Eumicetoma
+B471,Actinomicetoma
+B479,Micetoma não especificado
+B48,Outras micoses
+B480,Lobomicose
+B481,Rinosporidiose
+B482,Alesqueriose
+B483,Geotricose
+B484,Penicilose
+B487,Micoses oportunistas
+B488,Outras micoses especificadas
+B49,Micose não especificada
+B50,Malária por Plasmodium falciparum
+B500,Malária por Plasmodium falciparum com complicações cerebrais
+B508,Outras formas graves e complicadas de malária por Plasmodium falciparum
+B509,Malária não especificada por Plasmodium falciparum
+B51,Malária por Plasmodium vivax
+B510,Malária por Plasmodium vivax com rotura do baço
+B518,Malária por Plasmodium vivax com outras complicações
+B519,Malária por Plasmodium vivax sem complicações
+B52,Malária por Plasmodium malariae
+B520,Malária por Plasmodium malariae com nefropatia
+B528,Malária por Plasmodium malariae com outras complicações
+B529,Malária por Plasmodium malariae sem complicações
+B53,Outras formas de malária confirmadas por exames parasitológicos
+B530,Malária por Plasmodium ovale
+B531,Malária por plasmódios de macacos
+B538,Outras formas de malárias com confirmação parasitológica
+B54,Malária não especificada
+B55,Leishmaniose
+B550,Leishmaniose visceral
+B551,Leishmaniose cutânea
+B552,Leishmaniose cutâneo-mucosa
+B559,Leishmaniose não especificada
+B56,Tripanossomíase africana
+B560,Tripanossomíase por Trypanosoma gambiense
+B561,Tripanossomíase por Trypanosoma rhodesiense
+B569,Tripanossomíase africana não especificada
+B57,Doença de Chagas
+B570,Forma aguda da doença de Chagas
+B571,Forma aguda da doença de Chagas
+B572,Doença de Chagas (crônica) com comprometimento cardíaco
+B573,Doença de Chagas (crônica) com comprometimento do aparelho digestivo
+B574,Doença de Chagas (crônica) com comprometimento do sistema nervoso
+B575,Doença de Chagas (crônica) com comprometimento de outros órgãos
+B58,Toxoplasmose
+B580,Oculopatia por Toxoplasma
+B581,Hepatite por Toxoplasma
+B582,Meningoencefalite por Toxoplasma
+B583,Toxoplasmose pulmonar
+B588,Toxoplasmose com comprometimento de outros órgãos
+B589,Toxoplasmose não especificada
+B59,Pneumocistose
+B60,Outras doenças devidas a protozoários
+B600,Babesiose
+B601,Acantamebíase
+B602,Naegleríase
+B608,Outras doenças especificadas devidas a protozoários
+B64,Doença não especificada devida a protozoários
+B65,Esquistossomose [bilharziose] [Schistosomíase]
+B650,Esquistossomose devida ao Schistosoma haematobium [esquistossomose urinária]
+B651,Esquistossomose devida ao Schistosoma mansoni [esquistossomose intestinal]
+B652,Esquistossomose devida ao Schistosoma japonicum
+B653,Dermatite por cercárias
+B658,Outras esquistossomoses
+B659,Esquistossomose não especificada
+B66,Outras infestações por trematódeos
+B660,Opistorquíase
+B661,Clonorquíase
+B662,Dicrocelíase
+B663,Fasciolíase
+B664,Paragonimíase
+B665,Fasciolopsíase
+B668,Outras infestações por trematódeos especificados
+B669,Infecção não especificada por trematódeo
+B67,Equinococose
+B670,Infestação hepática por Echinococcus granulosus
+B671,Infestação pulmonar por Echinococcus granulosus
+B672,Infestação óssea por Echinococcus granulosus
+B673,Infestações por Echinmococcus granulosus
+B674,Infestação não especificada por Echinococcus granulosus
+B675,Infestação hepática por Echinococcus multilocularis
+B676,Infecções por Echinococcus multilocularis
+B677,Infestação não especificada por Echinococcus multilocularis
+B678,Infestação hepática não especificada
+B679,Infestações por Echinococcus
+B68,Infestação por Taenia
+B680,Infestação por Taenia solium
+B681,Infestação por Taenia saginata
+B689,Infestação não especificada por Taenia
+B69,Cisticercose
+B690,Cisticercose do sistema nervoso central
+B691,Cisticercose do olho
+B698,Cisticercose de outras localizações
+B699,Cisticercose não especificada
+B70,Difilobotríase e esparganose
+B700,Difilobotríase
+B701,Esparganose
+B71,Outras infestações por cestóides
+B710,Infestação por Hymenolepis
+B711,Infestação por Dipylidium
+B718,Outras infestações especificadas por cestóides
+B719,Infestação não especificada por cestóides
+B72,Dracontíase
+B73,Oncocercose
+B74,Filariose
+B740,Filariose por Wuchereria bancrofti
+B741,Filariose por Brugia malayi
+B742,Filariose por Brugia timori
+B743,Loaíase
+B744,Mansonelose
+B748,Outras filarioses
+B749,Filariose não especificada
+B75,Triquinose
+B76,Ancilostomíase
+B760,Ancilostomose
+B761,Necatoríase
+B768,Outras ancilostomíases
+B769,Ancilostomíase não especificada
+B77,Ascaridíase
+B770,Ascaridíase com complicações intestinais
+B778,Ascaridíase com outras complicações
+B779,Ascaridíase não especificada
+B78,Estrongiloidíase
+B780,Estrongiloidíase intestinal
+B781,Estrongiloidíase cutânea
+B787,Estrongiloidíase disseminada
+B789,Estrongiloidíase não especificada
+B79,Tricuríase
+B80,Oxiuríase
+B81,Outras helmintíases intestinais
+B810,Anisaquíase
+B811,Capilaríase intestinal
+B812,Tricostrongilose
+B813,Angiostrongilíase intestinal
+B814,Helmintíases intestinais mistas
+B818,Outras helmintíases intestinais especificadas
+B82,Parasitose intestinal não especificada
+B820,Helmintíase intestinal não especificada
+B829,Parasitose intestinal não especificada
+B83,Outras helmintíases
+B830,Larva migrans visceral
+B831,Gnatostomíase
+B832,Angrostrongilíase devida a Parastrongylus cantonensis
+B833,Singamose
+B834,Hirudiníase interna
+B838,Outras helmintíases especificadas
+B839,Helmintíase não especificada
+B85,Pediculose e ftiríase
+B850,Pediculose devida a Pediculus humanus capitis
+B851,Pediculose devida a Pediculus humanus corporis
+B852,Pediculose não especificada
+B853,Ftiríase
+B854,Pediculose e ftiríase mista
+B86,Escabiose [sarna]
+B87,Miíase
+B870,Miíase cutânea
+B871,Miíase das feridas
+B872,Miíase ocular
+B873,Miíase nasofaríngea
+B874,Miíase auricular
+B878,Miíase de outras localizações
+B879,Miíase não especificada
+B88,Outras infestações
+B880,Outras acaríases
+B881,Tungíase [infestação pela pulga da areia]
+B882,Outras infestações por artrópodos
+B883,Hirudiníase externa
+B888,Outras infestações especificadas
+B889,Infestação não especificada
+B89,Doença parasitária não especificada
+B90,Seqüelas de tuberculose
+B900,Seqüelas de tuberculose do sistema nervoso central
+B901,Seqüelas de tuberculose geniturinária
+B902,Seqüelas de tuberculose óssea e das articulações
+B908,Seqüelas de tuberculose de outros órgãos
+B909,Seqüelas de tuberculose das vias respiratórias e de órgãos não especificados
+B91,Seqüelas de poliomielite
+B92,Seqüelas de hanseníase [lepra]
+B94,Seqüelas de outras doenças infecciosas e parasitárias e das não especificadas
+B940,Seqüelas de tracoma
+B941,Seqüelas de encefalite viral
+B942,Seqüelas de hepatite viral
+B948,Seqüelas de outras doenças infecciosas e parasitárias especificadas
+B949,Seqüelas de doença infecciosa ou parasitária não especificada
+B95,Estreptococos e estafilococos como causa de doenças classificadas em outros capítulos
+B950,Estreptococo do grupo A
+B951,Estreptococo do grupo B
+B952,Estreptococo do grupo D
+B953,Streptococcus pneumoniae
+B954,Outros estreptococos
+B955,Estreptococo não especificado
+B956,Staphylococcus aureus
+B957,Outros estafilococos como causa de doenças classificadas em outros capítulos
+B958,Estafilococo não especificado
+B96,Outros agentes bacterianos
+B960,Mycoplasma pneumoniae [M. pneumoniae]
+B961,Klebsiella pneumoniae [M. pneumoniae]
+B962,Escherichia coli [E. Coli]
+B963,Haemophilus influenzae [H. influenzae]
+B964,Proteus (mirabilis) (morganii)
+B965,Pseudomonas (aeruginosa) (mallei) (pseudomallei)
+B966,Bacillus fragilis [B. fragilis]
+B967,Clostridium perfringens [C. perfringens]
+B968,Outros agentes bacterianos especificados
+B97,Vírus como causa de doenças classificadas em outros capítulos
+B970,Adenovírus
+B971,Enterovírus
+B972,Coronavírus
+B973,Retrovírus
+B974,Vírus sincicial respiratório
+B975,Reovírus
+B976,Parvovírus
+B977,Papilomavírus
+B978,Outros agentes virais
+B99,Doenças infecciosas
+C00,Neoplasia maligna do lábio
+C000,Neoplasia maligna do lábio superior externo
+C001,Neoplasia maligna do lábio inferior externo
+C002,Neoplasia maligna do lábio externo
+C003,Neoplasia maligna do lábio superior
+C004,Neoplasia maligna do lábio inferior
+C005,Neoplasia maligna do lábio
+C006,Neoplasia maligna da comissura labial
+C008,Neoplasia maligna do lábio com lesão invasiva
+C009,Neoplasia maligna do lábio
+C01,Neoplasia maligna da base da língua
+C02,Neoplasia maligna de outras partes e de partes não especificadas da língua
+C020,Neoplasia maligna da face dorsal da língua
+C021,Neoplasia maligna da borda da língua
+C022,Neoplasia maligna da face ventral da língua
+C023,Neoplasia maligna de dois terços anteriores da língua
+C024,Neoplasia maligna da amígdala lingual
+C028,Neoplasia maligna da língua com lesão invasiva
+C029,Neoplasia maligna da língua
+C03,Neoplasia maligna da gengiva
+C030,Neoplasia maligna da gengiva superior
+C031,Neoplasia maligna da gengiva inferior
+C039,Neoplasia maligna da gengiva
+C04,Neoplasia maligna do assoalho da boca
+C040,Neoplasia maligna do assoalho anterior da boca
+C041,Neoplasia maligna do assoalho lateral da boca
+C048,Neoplasia maligna do assoalho da boca com lesão invasiva
+C049,Neoplasia maligna do assoalho da boca
+C05,Neoplasia maligna do palato
+C050,Neoplasia maligna do palato duro
+C051,Neoplasia maligna do palato mole
+C052,Neoplasia maligna da úvula
+C058,Neoplasia maligna do palato com lesão invasiva
+C059,Neoplasia maligna do palato
+C06,Neoplasia maligna de outras partes e de partes não especificadas da boca
+C060,Neoplasia maligna da mucosa oral
+C061,Neoplasia maligna do vestíbulo da boca
+C062,Neoplasia maligna da área retromolar
+C068,Neoplasia maligna de outras partes e de partes não especificadas da boca com lesão invasiva
+C069,Neoplasia maligna da boca
+C07,Neoplasia maligna da glândula parótida
+C08,Neoplasia maligna de outras glândulas salivares maiores e as não especificadas
+C080,Neoplasia maligna da glândula submandibular
+C081,Neoplasia maligna da glândula sublingual
+C088,Neoplasia maligna das glândulas salivares maiores com lesão invasiva
+C089,Neoplasia maligna da glândula salivar maior
+C09,Neoplasia maligna da amígdala
+C090,Neoplasia maligna da fossa amigdaliana
+C091,Neoplasia maligna do pilar amigdaliano (anterior) (posterior)
+C098,Neoplasia maligna da amígdala com lesão invasiva
+C099,Neoplasia maligna da amígdala
+C10,Neoplasia maligna da orofaringe
+C100,Neoplasia maligna da valécula
+C101,Neoplasia maligna da face anterior da epiglote
+C102,Neoplasia maligna da parede lateral da orofaringe
+C103,Neoplasia maligna da parede posterior da orofaringe
+C104,Neoplasia maligna da fenda branquial
+C108,Neoplasia maligna da orofaringe com lesão invasiva
+C109,Neoplasia maligna da orofaringe
+C11,Neoplasia maligna da nasofaringe
+C110,Neoplasia maligna da parede superior da nasofaringe
+C111,Neoplasia maligna da parede posterior da nasofaringe
+C112,Neoplasia maligna da parede lateral da nasofaringe
+C113,Neoplasia maligna da parede anterior da nasofaringe
+C118,Neoplasia maligna da nasofaringe com lesão invasiva
+C119,Neoplasia maligna da nasofaringe
+C12,Neoplasia maligna do seio piriforme
+C13,Neoplasia maligna da hipofaringe
+C130,Neoplasia maligna da região pós-cricóidea
+C131,Neoplasia maligna da prega ariepiglótica
+C132,Neoplasia maligna da parede posterior da hipofaringe
+C138,Neoplasia maligna da hipofaringe com lesão invasiva
+C139,Neoplasia maligna da hipofaringe
+C14,Neoplasia maligna de outras localizações e de localizações mal definida
+C140,Neoplasia maligna da faringe
+C142,Neoplasia maligna do anel de Waldeyer
+C148,Neoplasia maligna do lábio
+C15,Neoplasia maligna do esôfago
+C150,Neoplasia maligna da porção cervical do esôfago (esôfago cervical)
+C151,Neoplasia maligna da porção torácica do esôfago (esôfago torácico)
+C152,Neoplasia maligna da porção abdominal do esôfago (esôfago abdominal)
+C153,Neoplasia maligna do terço superior do esôfago
+C154,Neoplasia maligna do terço médio do esôfago
+C155,Neoplasia maligna do terço inferior do esôfago
+C158,Neoplasia maligna do esôfago com lesão invasiva
+C159,Neoplasia maligna do esôfago
+C16,Neoplasia maligna do estômago
+C160,Neoplasia maligna da cárdia
+C161,Neoplasia maligna do fundo do estômago
+C162,Neoplasia maligna do corpo do estômago
+C163,Neoplasia maligna do antro pilórico
+C164,Neoplasia maligna do piloro
+C165,Neoplasia maligna da pequena curvatura do estômago
+C166,Neoplasia maligna da grande curvatura do estômago
+C168,Neoplasia maligna do estômago com lesão invasiva
+C169,Neoplasia maligna do estômago
+C17,Neoplasia maligna do intestino delgado
+C170,Neoplasia maligna do duodeno
+C171,Neoplasia maligna do jejuno
+C172,Neoplasia maligna do íleo
+C173,Neoplasia maligna do divertículo de Meckel
+C178,Neoplasia maligna do intestino delgado com lesão invasiva
+C179,Neoplasia maligna do intestino delgado
+C18,Neoplasia maligna do cólon
+C180,Neoplasia maligna do ceco
+C181,Neoplasia maligna do apêndice (vermiforme)
+C182,Neoplasia maligna do cólon ascendente
+C183,Neoplasia maligna da flexura (ângulo) hepática(o)
+C184,Neoplasia maligna do cólon transverso
+C185,Neoplasia maligna da flexura (ângulo) esplênica(o)
+C186,Neoplasia maligna do cólon descendente
+C187,Neoplasia maligna do cólon sigmóide
+C188,Neoplasia maligna do cólon com lesão invasiva
+C189,Neoplasia maligna do cólon
+C19,Neoplasia maligna da junção retossigmóide
+C20,Neoplasia maligna do reto
+C21,Neoplasia maligna do ânus e do canal anal
+C210,Neoplasia maligna do ânus
+C211,Neoplasia maligna do canal anal
+C212,Neoplasia maligna da zona cloacogênica
+C218,Neoplasia maligna do reto
+C22,Neoplasia maligna do fígado e das vias biliares intra-hepáticas
+C220,Carcinoma de células hepáticas
+C221,Carcinoma de vias biliares intra-hepáticas
+C222,Hepatoblastoma
+C223,Angiossarcoma do fígado
+C224,Outros sarcomas do fígado
+C227,Outros carcinomas especificados do fígado
+C229,Neoplasia maligna do fígado
+C23,Neoplasia maligna da vesícula biliar
+C24,Neoplasia maligna de outras partes
+C240,Neoplasia maligna das vias biliares extra-hepáticas
+C241,Neoplasia maligna da ampola de Vater
+C248,Neoplasia maligna das vias biliares com lesão invasiva
+C249,Neoplasia maligna da via biliar
+C25,Neoplasia maligna do pâncreas
+C250,Neoplasia maligna da cabeça do pâncreas
+C251,Neoplasia maligna do corpo do pâncreas
+C252,Neoplasia maligna da cauda do pâncreas
+C253,Neoplasia maligna do canal pancreático
+C254,Neoplasia maligna do pâncreas endócrino
+C257,Neoplasia maligna de outras partes do pâncreas
+C258,Neoplasia maligna do pâncreas com lesão invasiva
+C259,Neoplasia maligna do pâncreas
+C26,Neoplasia maligna de outros órgãos digestivos e de localizações mal definidas no aparelho digestivo
+C260,Neoplasia maligna do trato intestinal
+C261,Neoplasia maligna do baço
+C268,Neoplasia maligna do aparelho digestivo com lesão invasiva
+C269,Neoplasia maligna de localizações mal definidas dentro do aparelho digestivo
+C30,Neoplasia maligna da cavidade nasal e do ouvido médio
+C300,Neoplasia maligna da cavidade nasal
+C301,Neoplasia maligna do ouvido médio
+C31,Neoplasia maligna dos seios da face
+C310,Neoplasia maligna do seio maxilar
+C311,Neoplasia maligna do seio etmoidal
+C312,Neoplasia maligna do seio frontal
+C313,Neoplasia maligna do seio esfenoidal
+C318,Neoplasia maligna dos seios da face com lesão invasiva
+C319,Neoplasia maligna do seio da face
+C32,Neoplasia maligna da laringe
+C320,Neoplasia maligna da glote
+C321,Neoplasia maligna da região supraglótica
+C322,Neoplasia maligna da região subglótica
+C323,Neoplasia maligna das cartilagens da laringe
+C328,Neoplasia maligna da laringe com lesão invasiva
+C329,Neoplasia maligna da laringe
+C33,Neoplasia maligna da traquéia
+C34,Neoplasia maligna dos brônquios e dos pulmões
+C340,Neoplasia maligna do brônquio principal
+C341,Neoplasia maligna do lobo superior
+C342,Neoplasia maligna do lobo médio
+C343,Neoplasia maligna do lobo inferior
+C348,Neoplasia maligna dos brônquios e dos pulmões com lesão invasiva
+C349,Neoplasia maligna dos brônquios ou pulmões
+C37,Neoplasia maligna do timo
+C38,Neoplasia maligna do coração
+C380,Neoplasia maligna do coração
+C381,Neoplasia maligna do mediastino anterior
+C382,Neoplasia maligna do mediastino posterior
+C383,Neoplasia maligna do mediastino
+C384,Neoplasia maligna da pleura
+C388,Neoplasia maligna do coração
+C39,Neoplasia maligna de outras localizações e de localizações mal definidas do aparelho respiratório e dos órgãos intratorácicos
+C390,Neoplasia maligna do trato respiratório superior
+C398,Neoplasia maligna do aparelho respiratório e dos órgãos intratorácicos com lesão invasiva
+C399,Neoplasia maligna de localizações mal definidas do aparelho respiratório
+C40,Neoplasia maligna dos ossos e cartilagens articulares dos membros
+C400,Neoplasia maligna da omoplata [escápula] e ossos longos dos membros superiores
+C401,Neoplasia maligna dos ossos curtos dos membros superiores
+C402,Neoplasia maligna dos ossos longos dos membros inferiores
+C403,Neoplasia maligna dos ossos curtos dos membros inferiores
+C408,Neoplasia maligna dos ossos e cartilagens articulares dos membros com lesão invasiva
+C409,Neoplasia maligna dos ossos e cartilagens articulares de membro não especificado
+C41,Neoplasia maligna dos ossos e das cartilagens articulares de outras localizações e de localizações não especificadas
+C410,Neoplasia maligna dos ossos do crânio e da face
+C411,Neoplasia maligna da mandíbula
+C412,Neoplasia maligna da coluna vertebral
+C413,Neoplasia maligna das costelas
+C414,Neoplasia maligna dos ossos da pelve
+C418,Neoplasia maligna dos ossos e das cartilagens articulares com lesão invasiva
+C419,Neoplasia maligna dos ossos e cartilagens articulares
+C43,Melanoma maligno da pele
+C430,Melanoma maligno do lábio
+C431,Melanoma maligno da pálpebra
+C432,Melanoma maligno da orelha e do conduto auditivo externo
+C433,Melanoma maligno de outras partes e partes não especificadas da face
+C434,Melanoma maligno do couro cabeludo e do pescoço
+C435,Melanoma maligno do tronco
+C436,Melanoma maligno do membro superior
+C437,Melanoma maligno do membro inferior
+C438,Melanoma maligno invasivo da pele
+C439,Melanoma maligno de pele
+C44,Outras neoplasias malignas da pele
+C440,Neoplasia maligna da pele do lábio
+C441,Neoplasia maligna da pele da pálpebra
+C442,Neoplasia maligna da pele da orelha e do conduto auditivo externo
+C443,Neoplasia maligna da pele de outras partes e de partes não especificadas da face
+C444,Neoplasia maligna da pele do couro cabeludo e do pescoço
+C445,Neoplasia maligna da pele do tronco
+C446,Neoplasia maligna da pele do membro superior
+C447,Neoplasia maligna da pele do membro inferior
+C448,Neoplasia maligna da pele com lesão invasiva
+C449,Neoplasia maligna da pele
+C45,Mesotelioma
+C450,Mesotelioma da pleura
+C451,Mesotelioma do peritônio
+C452,Mesotelioma do pericárdio
+C457,Mesotelioma de outras localizações
+C459,Mesotelioma
+C46,Sarcoma de Kaposi
+C460,Sarcoma de Kaposi da pele
+C461,Sarcoma de Kaposi de tecidos moles
+C462,Sarcoma de Kaposi do palato
+C463,Sarcoma de Kaposi dos gânglios linfáticos
+C467,Sarcoma de Kaposi de outras localizações
+C468,Sarcoma de Kaposi de múltiplos órgãos
+C469,Sarcoma de Kaposi
+C47,Neoplasia maligna dos nervos periféricos e do sistema nervoso autônomo
+C470,Neoplasia maligna dos nervos periféricos da cabeça
+C471,Neoplasia maligna dos nervos periféricos dos membros superiores
+C472,Neoplasia maligna dos nervos periféricos dos membros inferiores
+C473,Neoplasia maligna dos nervos periféricos do tórax
+C474,Neoplasia maligna dos nervos periféricos do abdome
+C475,Neoplasia maligna dos nervos periféricos da pelve
+C476,Neoplasia maligna dos nervos periféricos do tronco
+C478,Neoplasia maligna dos nervos periféricos e do sistema nervoso autônomo com lesão invasiva
+C479,Neoplasia maligna dos nervos periféricos e sistema nervoso autônomo
+C48,Neoplasia maligna dos tecidos moles do retroperitônio e do peritônio
+C480,Neoplasia maligna do retroperitônio
+C481,Neoplasia maligna de partes especificadas do peritônio
+C482,Neoplasia maligna do peritônio
+C488,Neoplasia maligna dos tecidos moles do retroperitônio e do peritônio com lesão invasiva
+C49,Neoplasia maligna do tecido conjuntivo e de outros tecidos moles
+C490,Neoplasia maligna do tecido conjuntivo e tecidos moles da cabeça
+C491,Neoplasia maligna do tecido conjuntivo e tecidos moles dos membros superiores
+C492,Neoplasia maligna do tecido conjuntivo e tecidos moles dos membros inferiores
+C493,Neoplasia maligna do tecido conjuntivo e tecidos moles do tórax
+C494,Neoplasia maligna do tecido conjuntivo e tecidos moles do abdome
+C495,Neoplasia maligna do tecido conjuntivo e tecidos moles da pelve
+C496,Neoplasia maligna do tecido conjuntivo e tecidos moles do tronco
+C498,Neoplasia maligna do tecido conjuntivo e dos tecidos moles com lesão invasiva
+C499,Neoplasia maligna do tecido conjuntivo e tecidos moles
+C50,Neoplasia maligna da mama
+C500,Neoplasia maligna do mamilo e aréola
+C501,Neoplasia maligna da porção central da mama
+C502,Neoplasia maligna do quadrante superior interno da mama
+C503,Neoplasia maligna do quadrante inferior interno da mama
+C504,Neoplasia maligna do quadrante superior externo da mama
+C505,Neoplasia maligna do quadrante inferior externo da mama
+C506,Neoplasia maligna da porção axilar da mama
+C508,Neoplasia maligna da mama com lesão invasiva
+C509,Neoplasia maligna da mama
+C51,Neoplasia maligna da vulva
+C510,Neoplasia maligna dos grandes lábios
+C511,Neoplasia maligna dos pequenos lábios
+C512,Neoplasia maligna do clitóris
+C518,Neoplasia maligna da vulva com lesão invasiva
+C519,Neoplasia maligna da vulva
+C52,Neoplasia maligna da vagina
+C53,Neoplasia maligna do colo do útero
+C530,Neoplasia maligna do endocérvix
+C531,Neoplasia maligna do exocérvix
+C538,Neoplasia maligna do colo do útero com lesão invasiva
+C539,Neoplasia maligna do colo do útero
+C54,Neoplasia maligna do corpo do útero
+C540,Neoplasia maligna do istmo do útero
+C541,Neoplasia maligna do endométrio
+C542,Neoplasia maligna do miométrio
+C543,Neoplasia maligna do fundo do útero
+C548,Neoplasia maligna do corpo do útero com lesão invasiva
+C549,Neoplasia maligna do corpo do útero
+C55,Neoplasia maligna do útero
+C56,Neoplasia maligna do ovário
+C57,Neoplasia maligna de outros órgãos genitais femininos e dos não especificados
+C570,Neoplasia maligna da trompa de Falópio
+C571,Neoplasia maligna do ligamento largo
+C572,Neoplasia maligna do ligamento redondo
+C573,Neoplasia maligna do paramétrio
+C574,Neoplasia maligna dos anexos uterinos
+C577,Neoplasia maligna de outras partes especificadas dos órgãos genitais femininos
+C578,Neoplasia maligna dos órgãos genitais femininos com lesão invasiva
+C579,Neoplasia maligna de órgão genital feminino
+C58,Neoplasia maligna da placenta
+C60,Neoplasia maligna do pênis
+C600,Neoplasia maligna do prepúcio
+C601,Neoplasia maligna da glande
+C602,Neoplasia maligna do corpo do pênis
+C608,Neoplasia maligna do pênis com lesão invasiva
+C609,Neoplasia maligna do pênis
+C61,Neoplasia maligna da próstata
+C62,Neoplasia maligna dos testículos
+C620,Neoplasia maligna do testículo criptorquídico
+C621,Neoplasia maligna do testículo tópico
+C629,Neoplasia maligna do testículo
+C63,Neoplasia maligna de outros órgãos genitais masculinos e dos não especificados
+C630,Neoplasia maligna do epidídimo
+C631,Neoplasia maligna do cordão espermático
+C632,Neoplasia maligna do escroto
+C637,Neoplasia maligna de outros órgãos genitais masculinos especificados
+C638,Neoplasia maligna dos órgãos genitais masculinos com lesão invasiva
+C639,Neoplasia maligna de órgão genital masculino
+C64,Neoplasia maligna do rim
+C65,Neoplasia maligna da pelve renal
+C66,Neoplasia maligna dos ureteres
+C67,Neoplasia maligna da bexiga
+C670,Neoplasia maligna do trígono da bexiga
+C671,Neoplasia maligna da cúpula da bexiga
+C672,Neoplasia maligna da parede lateral da bexiga
+C673,Neoplasia maligna da parede anterior da bexiga
+C674,Neoplasia maligna da parede posterior da bexiga
+C675,Neoplasia maligna do colo da bexiga
+C676,Neoplasia maligna do orifício uretérico
+C677,Neoplasia maligna do úraco
+C678,Neoplasia maligna da bexiga com lesão invasiva
+C679,Neoplasia maligna da bexiga
+C68,Neoplasia maligna de outros órgãos urinários e dos não especificados
+C680,Neoplasia maligna da uretra
+C681,Neoplasia maligna da glândula parauretral
+C688,Neoplasia maligna dos órgãos urinários com lesão invasiva
+C689,Neoplasia maligna de órgão urinário
+C69,Neoplasia maligna do olho e anexos
+C690,Neoplasia maligna da conjuntiva
+C691,Neoplasia maligna da córnea
+C692,Neoplasia maligna da retina
+C693,Neoplasia maligna da coróide
+C694,Neoplasia maligna do corpo ciliar
+C695,Neoplasia maligna da glândula e canal lacrimal
+C696,Neoplasia maligna da órbita
+C698,Neoplasia maligna do olho e anexos com lesão invasiva
+C699,Neoplasia maligna do olho
+C70,Neoplasia maligna das meninges
+C700,Neoplasia maligna das meninges cerebrais
+C701,Neoplasia maligna das meninges espinhais
+C709,Neoplasia maligna da meninge
+C71,Neoplasia maligna do encéfalo
+C710,Neoplasia maligna do cérebro
+C711,Neoplasia maligna do lobo frontal
+C712,Neoplasia maligna do lobo temporal
+C713,Neoplasia maligna do lobo parietal
+C714,Neoplasia maligna do lobo occipital
+C715,Neoplasia maligna do ventrículo cerebral
+C716,Neoplasia maligna do cerebelo
+C717,Neoplasia maligna do tronco cerebral
+C718,Neoplasia maligna do encéfalo com lesão invasiva
+C719,Neoplasia maligna do encéfalo
+C72,Neoplasia maligna da medula espinhal
+C720,Neoplasia maligna da medula espinhal
+C721,Neoplasia maligna da cauda eqüina
+C722,Neoplasia maligna do nervo olfativo
+C723,Neoplasia maligna do nervo óptico
+C724,Neoplasia maligna do nervo acústico
+C725,Neoplasia maligna de outros nervos cranianos e os não especificados
+C728,Neoplasia maligna do encéfalo e de outras partes do sistema nervoso central com lesão invasiva
+C729,Neoplasia maligna do sistema nervoso central
+C73,Neoplasia maligna da glândula tireóide
+C74,Neoplasia maligna da glândula supra-renal [Glândula adrenal]
+C740,Neoplasia maligna do córtex da supra-renal
+C741,Neoplasia maligna da medula da supra-renal
+C749,Neoplasia maligna da glândula supra-renal
+C75,Neoplasia maligna de outras glândulas endócrinas e de estruturas relacionadas
+C750,Neoplasia maligna da glândula paratireóide
+C751,Neoplasia maligna da glândula hipófise (pituitária)
+C752,Neoplasia maligna do conduto craniofaríngeo
+C753,Neoplasia maligna da glândula pineal
+C754,Neoplasia maligna do corpo carotídeo
+C755,Neoplasia maligna do corpo aórtico e outros paragânglios
+C758,Neoplasia maligna com comprometimento pluriglandular
+C759,Neoplasia maligna de glândula endócrina
+C76,Neoplasia maligna de outras localizações e de localizações mal definidas
+C760,Neoplasia maligna da cabeça
+C761,Neoplasia maligna do tórax
+C762,Neoplasia maligna do abdome
+C763,Neoplasia maligna da pelve
+C764,Neoplasia maligna do membro superior
+C765,Neoplasia maligna do membro inferior
+C767,Neoplasia maligna de outras localizações mal definidas
+C768,Neoplasia maligna de outras localizações e das mal definidas com lesão invasiva
+C77,Neoplasia maligna secundária e não especificada dos gânglios linfáticos
+C770,Neoplasia maligna secundária e não especificada dos gânglios linfáticos da cabeça
+C771,Neoplasia maligna secundária e não especificada dos gânglios linfáticos intratorácicos
+C772,Neoplasia maligna secundária e não especificada dos gânglios linfáticos intra-abdominais
+C773,Neoplasia maligna secundária e não especificada dos gânglios linfáticos axilares e dos membros superiores
+C774,Neoplasia maligna secundária e não especificada dos gânglios linfáticos inguinais e dos membros inferiores
+C775,Neoplasia maligna secundária e não especificada dos gânglios linfáticos intrapélvicos
+C778,Neoplasia maligna secundária e não especificada dos gânglios linfáticos de múltiplas regiões
+C779,Neoplasia maligna secundária e não especificada de gânglio linfático
+C78,Neoplasia maligna secundária dos órgãos respiratórios e digestivos
+C780,Neoplasia maligna secundária dos pulmões
+C781,Neoplasia maligna secundária do mediastino
+C782,Neoplasia maligna secundária da pleura
+C783,Neoplasia maligna secundária de outros órgãos respiratórios e não especificados
+C784,Neoplasia maligna secundária do intestino delgado
+C785,Neoplasia maligna secundária do intestino grosso e do reto
+C786,Neoplasia maligna secundária do retroperitônio e do peritônio
+C787,Neoplasia maligna secundária do fígado
+C788,Neoplasia maligna secundária de outros órgãos digestivos e não especificados
+C79,Neoplasia maligna secundária de outras localizações
+C790,Neoplasia maligna secundária do rim e da pelve renal
+C791,Neoplasia maligna secundária da bexiga
+C792,Neoplasia maligna secundária da pele
+C793,Neoplasia maligna secundária do encéfalo e das meninges cerebrais
+C794,Neoplasia maligna secundária de outras partes do sistema nervoso e não especificadas
+C795,Neoplasia maligna secundária dos ossos e da medula óssea
+C796,Neoplasia maligna secundária do ovário
+C797,Neoplasia maligna secundária das glândulas supra-renais (adrenais)
+C798,Neoplasia maligna secundária de outra localização especificada
+C80,Neoplasia maligna
+C81,Doença de Hodgkin
+C810,Doença de Hodgkin
+C811,Doença de Hodgkin
+C812,Doença de Hodgkin
+C813,Doença de Hodgkin
+C817,Outra forma da doença de Hodgkin
+C819,Doença de Hodgkin
+C82,Linfoma não-Hodgkin
+C820,Linfoma não-Hodgkin
+C821,Linfoma não-Hodgkin
+C822,Linfoma não-Hodgkin
+C827,Outros tipos de linfoma não-Hodgkin
+C829,Linfoma não-Hodgkin
+C83,Linfoma não-Hodgkin difuso
+C830,Linfoma não-Hodgkin difuso
+C831,Linfoma não-Hodgkin difuso
+C832,Linfoma não-Hodgkin difuso
+C833,Linfoma não-Hodgkin difuso
+C834,Linfoma não-Hodgkin difuso
+C835,Linfoma não-Hodgkin difuso
+C836,Linfoma não-Hodgkin difuso
+C837,Tumor de Burkitt
+C838,Outros tipos de linfoma não-Hodgkin difuso
+C839,Linfoma não-Hodgkin difuso
+C84,Linfomas de células T cutâneas e periféricas
+C840,Micose fungóide
+C841,Doença de Sézary
+C842,Linfoma da zona T
+C843,Linfoma linfoepitelióide
+C844,Linfoma de células T
+C845,Outros linfomas de células T e os não especificados
+C85,Linfoma não-Hodgkin de outros tipos e de tipo não especificado
+C850,Linfossarcoma
+C851,Linfoma de células B
+C857,Outros tipos especificados de linfoma não-Hodgkin
+C859,Linfoma não-Hodgkin de tipo não especificado
+C88,Doenças imunoproliferativas malignas
+C880,Macroglobulinemia de Waldenström
+C881,Doença de cadeia pesada alfa
+C882,Doença de cadeia pesada gama
+C883,Doença imunoproliferativa do intestino delgado
+C887,Outras doenças imunoproliferativas malignas
+C889,Doença imunoproliferativa maligna
+C90,Mieloma múltiplo e neoplasias malignas de plasmócitos
+C900,Mieloma múltiplo
+C901,Leucemia plasmocitária
+C902,Plasmocitoma extramedular
+C91,Leucemia linfóide
+C910,Leucemia linfoblástica aguda
+C911,Leucemia linfocítica crônica
+C912,Leucemia linfocítica subaguda
+C913,Leucemia pró-linfocítica
+C914,Leucemia de células pilosas
+C915,Leucemia de células T do adulto
+C917,Outras leucemias linfóides
+C919,Leucemia linfóide
+C92,Leucemia mielóide
+C920,Leucemia mielóide aguda
+C921,Leucemia mielóide crônica
+C922,Leucemia mielóide subaguda
+C923,Sarcoma mielóide
+C924,Leucemia pró-mielocítica aguda
+C925,Leucemia mielomonocítica aguda
+C927,Outras leucemias mielóides
+C929,Leucemia mielóide
+C93,Leucemia monocítica
+C930,Leucemia monocítica aguda
+C931,Leucemia monocítica crônica
+C932,Leucemia monocítica subaguda
+C937,Outras leucemias monocíticas
+C939,Leucemia monocítica
+C94,Outras leucemias de células de tipo especificado
+C940,Eritremia e eritroleucemia agudas
+C941,Eritremia crônica
+C942,Leucemia megacarioblástica aguda
+C943,Leucemia de mastócitos
+C944,Panmielose aguda
+C945,Mielofibrose aguda
+C947,Outras leucemias especificadas
+C95,Leucemia de tipo celular não especificado
+C950,Leucemia aguda de tipo celular não especificado
+C951,Leucemia crônica de tipo celular não especificado
+C952,Leucemia subaguda de tipo celular não especificado
+C957,Outras leucemias de tipo celular não especificado
+C959,Leucemia não especificada
+C96,Outras neoplasias malignas e as não especificadas dos tecidos linfático
+C960,Doença de Letterer-Siwe
+C961,Histiocitose maligna
+C962,Tumor maligno de mastócitos
+C963,Linfoma histiocítico verdadeiro
+C967,Outras neoplasias malignas especificadas dos tecidos linfático
+C969,Neoplasia maligna dos tecidos linfático
+C97,Neoplasias malignas de localizações múltiplas independentes (primárias)
+D00,Carcinoma in situ da cavidade oral
+D000,Carcinoma in situ dos lábios
+D001,Carcinoma in situ do esôfago
+D002,Carcinoma in situ do estômago
+D01,Carcinoma in situ de outros órgãos digestivos
+D010,Carcinoma in situ do cólon
+D011,Carcinoma in situ da junção retossigmóide
+D012,Carcinoma in situ do reto
+D013,Carcinoma in situ do ânus e canal anal
+D014,Carcinoma in situ de outras partes do intestino e as não especificadas
+D015,Carcinoma in situ do fígado
+D017,Carcinoma in situ de outros órgãos especificados do aparelho digestivo
+D019,Carcinoma in situ de órgãos digestivos
+D02,Carcinoma in situ do ouvido médio e do aparelho respiratório
+D020,Carcinoma in situ da laringe
+D021,Carcinoma in situ da traquéia
+D022,Carcinoma in situ dos brônquios e pulmões
+D023,Carcinoma in situ de outras partes do aparelho respiratório
+D029,Carcinoma in situ do aparelho respiratório
+D03,Melanoma in situ
+D030,Melanoma in situ do lábio
+D031,Melanoma in situ da pálpebra
+D032,Melanoma in situ da orelha e do conduto auditivo externo
+D033,Melanoma in situ de outras partes
+D034,Melanoma in situ do couro cabeludo
