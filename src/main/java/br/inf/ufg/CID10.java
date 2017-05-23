@@ -15,16 +15,18 @@ public class CID10
 		return listOfCID10Diseases;
 	}
 	
-	//Carrega arquivo CID10.csv dentro de um arraylist de strings, remove as virgulas e normaliza as linhas.
+	//Carrega arraylist serializado do CID10
 	public void load() throws IOException, ClassNotFoundException
-	{		
-		InputStream configStream = getClass().getResourceAsStream("CID-10.java-arraylist-serialized");
-		ObjectInputStream ois = new ObjectInputStream(configStream);
-		
-		listOfCID10Diseases = (ArrayList<String>) ois.readObject();
-		normalizedListOfCID10Diseases = normalizeStringArrayList(listOfCID10Diseases);
-		configStream.close();
-		ois.close();
+	{	
+		if(listOfCID10Diseases == null) {
+			InputStream configStream = getClass().getResourceAsStream("CID-10.java-arraylist-serialized");
+			ObjectInputStream ois = new ObjectInputStream(configStream);
+			
+			listOfCID10Diseases = (ArrayList<String>) ois.readObject();
+			normalizedListOfCID10Diseases = normalizeStringArrayList(listOfCID10Diseases);
+			configStream.close();
+			ois.close();
+		}
 	}
 	
 	public void unload() throws Throwable
