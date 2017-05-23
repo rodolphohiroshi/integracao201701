@@ -1,10 +1,12 @@
-package br.inf.ufg;
+package br.ufg.inf;
 import static org.junit.Assert.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
 import org.junit.Test;
+
+import br.ufg.inf.CID10;
 
 
 public class CID10Test {
