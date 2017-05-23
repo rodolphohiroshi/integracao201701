@@ -86,18 +86,18 @@ public class CID10Test {
 		
 		assertNotNull(results);
 		assertEquals( 1, results.size() );
-		assertEquals( "A90 Dengue [dengue cl·ssico]", results.get(0) );
+		assertEquals( "A90 Dengue [dengue cl√°ssico]", results.get(0) );
 	}
 	
 	@Test
 	public void multipleSearchsTest() throws IOException
 	{
-		String[] keyword = {"M9989/1", "SÌndrome", "mielodispl·sica", "SOE"};	
+		String[] keyword = {"M9989/1", "S√≠ndrome", "mielodispl√°sica", "SOE"};	
 		
 		for( int i = 0; i < 1000; i++ )
 		{
 			results = searcher.search( keyword );		
-			assertTrue( results.contains( "M9989/1 SÌndrome mielodispl·sica SOE"));
+			assertTrue( results.contains( "M9989/1 S√≠ndrome mielodispl√°sica SOE"));
 		}
 	}
 	
