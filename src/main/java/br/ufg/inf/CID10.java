@@ -11,7 +11,13 @@ public class CID10
 	private ArrayList<String> listOfCID10Diseases;
 	private ArrayList<String> normalizedListOfCID10Diseases;
 	
-	//Carrega arraylist serializado do CID10
+	/**
+	 * Carrega a lista de doenças do CID10 em memória.
+	 * <p>
+	 * Carrega a lista de doenças do CID10 em memória, caso a
+	 * mesma ainda não tenha sido carregada. Caso o método
+	 * seja invocado novamente, nada irá acontecer.
+	 */
 	public void load() throws IOException, ClassNotFoundException
 	{	
 		if(listOfCID10Diseases == null) {
@@ -25,11 +31,31 @@ public class CID10
 		}
 	}
 	
+	/**
+	 * Executa as operações necessárias para limpar qualquer recurso
+	 * utilizado pela classe.
+	 */
 	public void unload() throws Throwable
 	{
 		finalize();
 	}
 	
+	/**
+	 * Faz uma busca nas doenças do CID 10 baseado nas palavras-chave
+	 * fornecidas na entrada.
+	 * <p>
+	 * Esse método pode retornar uma lista de String contendo
+	 * todos os resultados caso contenha algum, ou null caso não encontre
+	 * nenhum. A entrada pode ser o código ou a descrição da doença, não
+	 * sendo necessário preencher o código ou descrição por completo.
+	 * Retorna uma exceção caso esse método seja invocado sem que a 
+	 * lista de doenças do CID10 tenha sido carregada.
+	 *
+	 * @param  keywords  palavras-chave que serão buscadas
+	 * @return      Lista de String contendo um resultado em cada linha ou
+	 * 				null caso não tenha resultado
+	 * @see #load()
+	 */
 	public ArrayList<String> search(String[] keywords )
 	{
 		if(listOfCID10Diseases == null) {
